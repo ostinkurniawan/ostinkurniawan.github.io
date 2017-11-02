@@ -33,10 +33,3 @@ t.exports=function(){var t={};t.VERSION="1.6.0-Webflow";var e={},r=Array.prototy
 Webflow.require('ix').init([
   {"slug":"new-interaction","name":"New Interaction","value":{"style":{},"triggers":[]}}
 ]);
-/**
- * ----------------------------------------------------------------------
- * Webflow: Interactions 2.0: Init
- */
-Webflow.require('ix2').init(
-{"events":{"e-7":{"id":"e-7","eventTypeId":"MOUSE_OVER","action":{"id":"","actionTypeId":"GENERAL_START_ACTION","config":{"delay":0,"easing":"","duration":0,"actionListId":"a","affectedElements":{},"playInReverse":false,"autoStopEventId":"e-8"}},"mediaQueries":["main","medium","small","tiny"],"target":{"appliesTo":"ELEMENT","id":"59e4761826426a0001493883|b3bdca82-abbe-4980-b814-c712b1799a74"},"config":{"loop":false},"createdOn":1509635538547},"e-8":{"id":"e-8","eventTypeId":"MOUSE_OUT","action":{"id":"","actionTypeId":"GENERAL_START_ACTION","config":{"delay":0,"easing":"","duration":0,"actionListId":"a","affectedElements":{},"playInReverse":false,"autoStopEventId":"e-7"}},"mediaQueries":["main","medium","small","tiny"],"target":{"appliesTo":"ELEMENT","id":"59e4761826426a0001493883|b3bdca82-abbe-4980-b814-c712b1799a74"},"config":{"loop":false},"createdOn":1509635538547}},"actionLists":{"a":{"id":"a","title":"New Timed Animation","actionItemGroups":[{"actionItems":[{"id":"a-n","actionTypeId":"STYLE_OPACITY","config":{"delay":0,"easing":"","duration":300,"target":"59e4761826426a0001493883|b3bdca82-abbe-4980-b814-c712b1799a74","value":0,"unit":""}}]},{"actionItems":[{"id":"a-n-2","actionTypeId":"STYLE_OPACITY","config":{"delay":0,"easing":"","duration":300,"target":"59e4761826426a0001493883|b3bdca82-abbe-4980-b814-c712b1799a74","value":1,"unit":""}}]}],"createdOn":1509612797743,"useFirstGroupAsInitialState":false}},"site":{"mediaQueries":[{"key":"main","min":992,"max":10000},{"key":"medium","min":768,"max":991},{"key":"small","min":480,"max":767},{"key":"tiny","min":0,"max":479}]}}
-);
