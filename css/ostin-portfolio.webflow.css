@@ -798,3 +798,153 @@
   }
 }
 
+@media (max-width: 479px) {
+  .image {
+    width: 80%;
+    margin-left: 10%;
+  }
+  .heading.tk-europa {
+    margin-top: 0%;
+    margin-right: 40%;
+    margin-left: 5%;
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .section-2 {
+    margin-bottom: 60%;
+    clear: left;
+  }
+  .heading-2 {
+    font-size: 24px;
+  }
+  .div-block-2 {
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+  .image-2 {
+    width: 100%;
+  }
+  .text-block {
+    display: none;
+    font-size: 30pt;
+  }
+  .div-block-5 {
+    margin-left: 0%;
+  }
+  .text-block-3 {
+    display: none;
+    font-size: 9px;
+    line-height: 14px;
+  }
+  .container-3 {
+    margin-top: 40%;
+  }
+  .heading-3 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .text-block-5 {
+    margin-right: 10%;
+  }
+  .div-block-7 {
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+  .section-4 {
+    margin-top: 10%;
+  }
+  .image-4 {
+    width: 80%;
+    margin-top: 15%;
+    margin-left: 10%;
+  }
+  .text-block-6 {
+    margin-top: 80%;
+    margin-left: 10%;
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .section-6 {
+    margin-bottom: 50%;
+    clear: none;
+  }
+  .image-6 {
+    width: 80%;
+    margin-top: 15%;
+  }
+  .heading-4 {
+    display: none;
+  }
+  .section-7 {
+    margin-top: 50%;
+    padding-right: 10%;
+    padding-left: 10%;
+  }
+  .text-block-8 {
+    text-align: left;
+  }
+  .paragraph-5 {
+    float: left;
+    clear: left;
+    text-align: left;
+  }
+  .section-8 {
+    padding-right: 0%;
+    padding-left: 0%;
+  }
+  .image-7 {
+    padding-right: 0%;
+    padding-left: 0%;
+  }
+  .section-9 {
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+  .html-embed-2 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: -15%;
+  }
+  .bold-text-2 {
+    float: left;
+    text-align: left;
+  }
+  .heading-10 {
+    margin-top: 60%;
+    margin-left: 10px;
+  }
+  .div-block-11 {
+    padding-right: 0%;
+  }
+  .div-block-13 {
+    margin-bottom: 10%;
+    padding-right: 0%;
+  }
+  .image-16 {
+    width: 100%;
+    margin-bottom: 20%;
+  }
+  .image-16-copy {
+    width: 100%;
+    margin-bottom: 20%;
+  }
+  .caption-right {
+    margin-top: 50%;
+    margin-right: 0%;
+    padding: 6%;
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .caption-rleft {
+    margin-top: 50%;
+    padding: 6%;
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .row-5 {
+    float: left;
+  }
+}
+
