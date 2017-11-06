@@ -785,6 +785,47 @@
   padding-bottom: 50px;
 }
 
+.image-18 {
+  width: 100%;
+  margin-bottom: 5%;
+  box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, .25);
+}
+
+.list-item {
+  font-family: europa, sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.list-item-2 {
+  font-family: europa, sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.list-item-3 {
+  font-family: europa, sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.list-item-4 {
+  font-family: europa, sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.bold-text-6 {
+  line-height: 26px;
+}
+
+.image-19 {
+  width: 100%;
+  background-image: url('../images/example-bg.png');
+  background-position: 0px 0px;
+  background-size: 125px;
+}
+
 @media (max-width: 991px) {
   .div-block-2 {
     margin-top: 13%;

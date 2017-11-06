@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Sat Nov 04 2017 21:58:14 GMT+0000 (UTC)  -->
+<!--  Last Published: Mon Nov 06 2017 03:03:42 GMT+0000 (UTC)  -->
 <html data-wf-page="59e8d577cd358f00013e4e60" data-wf-site="59e4761826426a0001493882">
 <head>
   <meta charset="utf-8">
@@ -72,7 +72,29 @@
     <div class="w-container"><img src="../images/Screen-Shot-2017-11-02-at-18.29.36.png" srcset="../images/Screen-Shot-2017-11-02-at-18.29.36-p-500.png 500w, ../images/Screen-Shot-2017-11-02-at-18.29.36-p-800.png 800w, ../images/Screen-Shot-2017-11-02-at-18.29.36-p-1080.png 1080w, ../images/Screen-Shot-2017-11-02-at-18.29.36-p-1600.png 1600w, ../images/Screen-Shot-2017-11-02-at-18.29.36-p-2000.png 2000w, ../images/Screen-Shot-2017-11-02-at-18.29.36.png 2346w" sizes="(max-width: 479px) 80vw, 38vw" class="image-16-copy">
       <h1 class="caption-rleft">a mind map based on our coded data and how the ideas link together</h1>
     </div>
-  </div>
+    <h2 class="heading-7">Design Requirements</h2>
+    <p class="paragraph-8">Based on our interviews, affinity analysis and ideation, a set of design requirements were made to guide the design and functionality of the built product.</p>
+    <h3 class="heading-8">Who will use it?</h3>
+    <p class="paragraph-8">Our user base, specifically, is <strong>decision-makers in housing recovery</strong>. From our interviews, we were able to ascertain that our users:<br>1. May have a <strong>range of technical skills</strong>; our users range from emergency managers to community representatives.<br>2. Want to be able to <strong>interact with the data</strong> (the data coming from the DESaster simulation).<br>3. Want a <strong>GIS-based tool</strong> because that is what they have <strong>familiarity</strong> with.</p>
+    <h3 class="heading-8">What kinds of environments would they use it in?</h3>
+    <p class="paragraph-8">Since these tools would be in support of <strong>post-disaster recovery</strong>, the primary way such a visualisation tool would be used would be a <strong>resource-limited environment</strong>.</p>
+    <h2 class="heading-7">Wireframes</h2>
+    <p class="paragraph-8">Several basic wireframes were generated to ideate upon.</p><img src="../images/wireframe1.jpg" srcset="../images/wireframe1.jpg 500w, ../images/wireframe1.jpg 1080w, ../images/wireframe1.jpg 1440w" sizes="(max-width: 479px) 80vw, 54vw" class="image-18"><img src="../images/wireframe2.jpg" srcset="../images/wireframe2.jpg 500w, ../images/wireframe2.jpg 800w, ../images/wireframe2.jpg 1080w, ../images/wireframe2.jpg 1440w" sizes="(max-width: 479px) 80vw, 54vw" class="image-18">
+    <h2 class="heading-7">Design Elements</h2>
+    <h3 class="heading-8">Format</h3>
+    <p class="paragraph-8">A key element in the design of this tool was the <strong>distribution format</strong>. We chose to use a single HTML file (with data in an embedded JSON) generated for each simulation as it gave us a number benefits:</p>
+    <ol>
+      <li class="list-item">A single HTML file would be <strong>easy to distribute</strong> via email, USB memory stick, or even on an online server.</li>
+      <li class="list-item-2">Pre-generating and embedding the data in a single file would <strong class="bold-text-6">negate the requirement to have a computer run the simulations on-site.</strong></li>
+      <li class="list-item-3">The <strong>learning curve to open the tool is almost non-existent</strong>, as it just requires you to open the file in a browser window.</li>
+      <li class="list-item-4"><strong>Reduces user exposure to the underlying mechanics of the tool</strong>, <strong>focusing them on what&#x27;s important</strong>: the interactive simulation results.</li>
+      <li class="list-item-4"><strong>Can be run in resource-limited environments</strong> as it just requires a modern browser and a basic internet connection (for maps only, all data would be stored locally)</li>
+    </ol>
+    <p class="paragraph-8">This format addresses many issues that a highly scientific simulation would usually have with a non-technical person: intuitiveness, exposure to unnecessary confusing details, and high bars to entry. <br><br>While other formats like an integrated iPython notebook would allow for more flexibility, would be easier to build, and could allow for more complex interaction with the data, the single HTML file format would allow for a controlled, universal, and universally-accessible experience. For example, when outlining the differing key user task flows (see below) regarding first use of the tool, a non-embedded iPython solution would have a much higher barrier to entry than an integrated HTML file. The potential for confusion and frustration when installing software dependencies using the command line is quite high; consequently, accessibility is prioritised over extra interaction capabilities.</p><img src="../images/Screen-Shot-2017-11-05-at-17.48.07.png" srcset="../images/Screen-Shot-2017-11-05-at-17.48.07.png 500w, ../images/Screen-Shot-2017-11-05-at-17.48.07.png 800w, ../images/Screen-Shot-2017-11-05-at-17.48.07.png 1080w, ../images/Screen-Shot-2017-11-05-at-17.48.07.png 1600w, ../images/Screen-Shot-2017-11-05-at-17.48.07.png 2000w, ../images/Screen-Shot-2017-11-05-at-17.48.07.png 2548w" sizes="100vw">
+    <h3 class="heading-8">Interaction: Sliders</h3>
+    <p class="paragraph-8">The core interaction element in the visualisations is a <strong>slider</strong>. This slider scrubs through each day of the simulation, providing a time-based view of the housing stock; <strong>their statuses, their spatial distribution, and community interaction</strong>.<br><br>The secondary interaction element in the visualisations is a <strong>hover-accessed information box</strong>. Dependent on the type of visualisation the user interacts with, it shows different contextual information. For individual data like maps, hyper-contextual data like the specific &quot;story&quot; for a specific house would be displayed; for aggregate data like bar graphs, counts would be displayed.</p>
+    <h2 class="heading-7">Prototypes <strong>(in progress)</strong></h2>
+    <p class="paragraph-8">Live prototypes are being developed to iterate atop of. The visualisations take the raw output from the DESaster simulation and can render a set of visualisations for each simulation. These prototypes currently undergo <strong>testing with key stakeholders</strong> (emergency management researchers) to <strong>generate valuable feedback</strong> to build upon. An example of a recent prototype is displayed below.</p><img src="../images/interaction.gif" class="image-18"></div>
   <div class="bottom-portfolio-nav">
     <div class="div-block-10">
       <div class="w-row">
