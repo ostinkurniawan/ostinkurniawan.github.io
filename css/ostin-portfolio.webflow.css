@@ -603,6 +603,14 @@
   background-color: #fff0d6;
 }
 
+.html-embed {
+  display: block;
+  width: 500px;
+  height: 500px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 @media (max-width: 991px) {
   .image {
     width: 70%;
