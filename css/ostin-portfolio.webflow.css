@@ -605,8 +605,7 @@
 
 .html-embed {
   display: block;
-  width: 500px;
-  height: 500px;
+  width: 70%;
   margin-right: auto;
   margin-left: auto;
 }
@@ -846,6 +845,9 @@
   .project-background-yellow {
     margin-right: 10%;
     margin-left: 10%;
+  }
+  .html-embed {
+    width: 100%;
   }
 }
 
