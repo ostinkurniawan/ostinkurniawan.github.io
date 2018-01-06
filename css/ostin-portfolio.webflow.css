@@ -610,6 +610,12 @@
   margin-left: auto;
 }
 
+.image-9 {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 @media (max-width: 991px) {
   .image {
     width: 70%;
