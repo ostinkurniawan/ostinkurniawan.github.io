@@ -635,6 +635,10 @@
   text-align: right;
 }
 
+.html-embed-2 {
+  margin-top: 15%;
+}
+
 @media (max-width: 991px) {
   .image {
     width: 70%;
