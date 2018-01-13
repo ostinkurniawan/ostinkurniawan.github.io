@@ -547,6 +547,7 @@
 
 .link-solid-fade:hover {
   opacity: 0.7;
+  color: #f66;
 }
 
 .visuals-heading {
@@ -608,6 +609,7 @@
 .html-embed {
   display: block;
   width: 70%;
+  height: 100%;
   margin-right: auto;
   margin-left: auto;
 }
@@ -637,6 +639,11 @@
 
 .html-embed-2 {
   margin-top: 15%;
+  margin-bottom: 15%;
+}
+
+.image-10 {
+  width: 100%;
 }
 
 @media (max-width: 991px) {
