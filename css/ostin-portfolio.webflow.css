@@ -61,7 +61,7 @@
 
 .project-section {
   position: static;
-  margin-bottom: 17%;
+  margin-bottom: 15%;
   clear: none;
 }
 
@@ -115,10 +115,18 @@
 
 .project-info-box {
   position: relative;
-  display: block;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   overflow: visible;
   margin: 30% auto 10%;
   padding: 10%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   border-radius: 4px;
   background-color: #fff;
   box-shadow: 0 0 6px 0 rgba(0, 0, 0, .25);
@@ -145,6 +153,7 @@
 .see-more-link {
   font-family: europa, sans-serif;
   font-weight: 400;
+  letter-spacing: 0.5px;
 }
 
 .text-block-5 {
@@ -646,6 +655,17 @@
   width: 100%;
 }
 
+.bold-text-7 {
+  letter-spacing: 0.3px;
+}
+
+.project-background-vm {
+  height: 350px;
+  min-height: 100px;
+  margin: 12% 20% 0px;
+  background-color: #ffd8d8;
+}
+
 @media (max-width: 991px) {
   .image {
     width: 70%;
@@ -711,6 +731,11 @@
     padding: 20%;
   }
   .project-background-yellow {
+    margin-top: 13%;
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+  .project-background-vm {
     margin-top: 13%;
     margin-right: 10%;
     margin-left: 10%;
@@ -887,6 +912,10 @@
   }
   .design-explorations-section {
     margin-top: 10%;
+  }
+  .project-background-vm {
+    margin-right: 10%;
+    margin-left: 10%;
   }
 }
 
