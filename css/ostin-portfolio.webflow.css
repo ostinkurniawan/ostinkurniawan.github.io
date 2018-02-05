@@ -1,6 +1,8 @@
 .about-section {
   margin-bottom: 10%;
-  margin-left: 8%;
+  margin-left: 0%;
+  padding-right: 3%;
+  padding-left: 8%;
   color: #000;
 }
 
@@ -37,6 +39,7 @@
 }
 
 .hero-header.tk-europa {
+  margin-right: 61%;
   margin-bottom: 0%;
   padding: 0px;
   font-family: europa, sans-serif;
@@ -44,7 +47,7 @@
 }
 
 .div-block {
-  position: static;
+  position: absolute;
   display: block;
   width: 80px;
   height: 2px;
@@ -111,7 +114,7 @@
   font-family: europa, sans-serif;
   font-size: 12px;
   text-align: right;
-  letter-spacing: 4pt;
+  letter-spacing: 3pt;
 }
 
 .project-info-box {
