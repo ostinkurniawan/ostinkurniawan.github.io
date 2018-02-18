@@ -24,7 +24,7 @@
 .text-block {
   max-width: 700px;
   font-family: Inconsolata, monospace;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 32px;
   text-align: center;
 }
@@ -209,7 +209,7 @@
 
 .text-block-6 {
   font-family: Inconsolata, monospace;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 24px;
 }
 
@@ -217,7 +217,7 @@
   padding-right: 30px;
   padding-left: 30px;
   font-family: Inconsolata, monospace;
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 400;
 }
 
@@ -240,6 +240,7 @@
   margin-bottom: 20px;
   font-family: Inconsolata, monospace;
   color: #707070;
+  font-size: 19px;
   letter-spacing: 2px;
   text-transform: uppercase;
 }
@@ -247,8 +248,8 @@
 .project-text {
   margin-top: 20px;
   font-family: Inconsolata, monospace;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 17px;
+  line-height: 26px;
 }
 
 .info-column {
@@ -279,6 +280,7 @@
 
 .bold-text-2 {
   margin-top: 70px;
+  font-size: 19px;
 }
 
 .inline-image {
@@ -292,7 +294,7 @@
   padding-right: 9%;
   padding-left: 9%;
   font-family: Inconsolata, monospace;
-  font-size: 12px;
+  font-size: 13px;
   font-style: normal;
   text-align: center;
 }
