@@ -481,6 +481,10 @@
   font-size: 17px;
 }
 
+.text-block-9 {
+  margin-top: 40px;
+}
+
 @media (max-width: 991px) {
   .works {
     -webkit-box-orient: vertical;
