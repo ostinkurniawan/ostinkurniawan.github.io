@@ -469,6 +469,7 @@
 
 .inline-image-lg {
   display: block;
+  overflow: hidden;
   max-width: 100%;
   margin: 30px auto 10px;
 }
