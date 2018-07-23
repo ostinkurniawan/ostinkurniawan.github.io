@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Wed Apr 18 2018 22:05:56 GMT+0000 (UTC)  -->
+<!--  Last Published: Mon Jul 23 2018 18:31:30 GMT+0000 (UTC)  -->
 <html data-wf-page="5ad79fc056a641d18e703d39" data-wf-site="5a83726d0aeb2000019fd7b6">
 <head>
   <meta charset="utf-8">
@@ -12,7 +12,7 @@
   <link href="css/webflow.css" rel="stylesheet" type="text/css">
   <link href="css/ostinsportfolio-revised.webflow.css" rel="stylesheet" type="text/css">
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js" type="text/javascript"></script>
-  <script type="text/javascript">WebFont.load({  google: {    families: ["Inconsolata:400,700"]  }});</script>
+  <script type="text/javascript">WebFont.load({  google: {    families: ["Inconsolata:400,700","Roboto Mono:100,300,regular,500,700"]  }});</script>
   <script src="https://use.typekit.net/vqx8rzo.js" type="text/javascript"></script>
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
   <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
@@ -21,9 +21,12 @@
   <link href="images/webpreview.png" rel="apple-touch-icon">
   <script type="text/javascript">(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');ga('create', 'UA-109916440-1', 'auto');ga('send', 'pageview');</script>
 </head>
-<body>
+<body class="body">
   <div class="navbar-section">
     <div data-collapse="medium" data-animation="default" data-duration="400" class="navbar w-nav">
+      <a href="index.html" class="brand w-nav-brand">
+        <div class="nav-brand">ostin kurniawan</div>
+      </a>
       <div class="top-level-nav w-container">
         <div class="menu-button w-nav-button">
           <div class="icon w-icon-nav-menu"></div>
@@ -38,7 +41,7 @@
         <h4 class="heading"><strong class="bold-text">CIRCLES</strong></h4>
         <h2 class="heading">An engagement tool for on-campus student groups.</h2>
       </div>
-      <div class="column w-col w-col-6"><img src="images/circles-updated.png" srcset="images/circles-updated-p-500.png 500w, images/circles-updated-p-800.png 800w, images/circles-updated.png 1000w" sizes="(max-width: 479px) 69vw, (max-width: 767px) 54vw, (max-width: 991px) 26vw, 28vw" class="image-2"></div>
+      <div class="column w-col w-col-6"><img src="images/circles-updated.png" srcset="images/circles-updated-p-500.png 500w, images/circles-updated-p-800.png 800w, images/circles-updated.png 1000w" sizes="(max-width: 479px) 77vw, (max-width: 767px) 61vw, (max-width: 991px) 30vw, 31vw" class="project-header-image"></div>
     </div>
   </div>
   <div class="project-info">
@@ -52,69 +55,69 @@
     </div>
   </div>
   <div class="project-content">
-    <h4 class="heading"><strong class="bold-text-2">DEFINING THE PROBLEM &amp; USER RESEARCH</strong></h4>
+    <h4 class="heading"><strong class="section-header">DEFINING THE PROBLEM &amp; USER RESEARCH</strong></h4>
     <h4 class="section-header">THE PROBLEM</h4>
     <div class="project-text">There is a <strong>lack of communication between the RSOs (Registered Student Organisations) on the UW campus and the students.</strong> Due to the sheer number of RSOs available and <strong>existing information fragmented across multiple services</strong>, interested students find it <strong>difficult to find RSOs or events that pertain to their interests.</strong> For similar reasons, RSOs also find it difficult to conduct effective outreach for their events and communities.</div>
     <div class="image-block"><img src="images/uwrso.jpg" srcset="images/uwrso-p-500.jpeg 500w, images/uwrso-p-800.jpeg 800w, images/uwrso-p-1080.jpeg 1080w, images/uwrso.jpg 1500w" sizes="100vw" class="inline-image">
-      <p class="paragraph">The current RSO resource page. It is infrequently updated, desktop-access only, and is not used in lieu of services like Facebook Pages</p>
+      <p class="img-caption">The current RSO resource page. It is infrequently updated, desktop-access only, and is not used in lieu of services like Facebook Pages</p>
     </div>
     <h4 class="section-header">USER RESEARCH &amp; DESIGN REQUIREMENTS</h4>
     <div class="project-text">We conducted six semi-structured user interviews with members of both the RSO audience and the RSO leaders themselves. We identified the pain points that these two groups had experienced and came up with a number of design requirements: <br><br>1. Being able to narrow down RSOs and RSO events with <strong>filters</strong><br>2. The ability to <strong>RSVP</strong> to an event<br>3. The ability for users to <strong>receive notifications/reminders</strong> about selected events<br>4. Allow users to see what Events and RSOs are currently <strong>Trending</strong>​<br>5. Ability to <strong>sync</strong> to other <strong>calendars</strong> ​<br>6. A <strong>calendar</strong> for users to visualize upcoming events</div>
-    <h4 class="heading"><strong class="bold-text-2">PERSONAS</strong></h4>
+    <h4 class="heading"><strong class="section-header">PERSONAS</strong></h4>
     <div class="project-text">With information from our interviews, we created two personas, Nick M and Anni B. They both represent our two user groups and <strong>describe the common pain points and goals</strong>. They also include information on the users’ background and how tech savvy they are. Provisional personas were initially created, critiqued, and refined to create two realistic and detailed personas that <strong>embody our target users</strong>. With a strong idea of our users and focused goals, it helped us figure out the design requirements and well as a clear path for our IA. These refined personas thus act as a guide through the rest of the design process, keeping us <strong>grounded in the reality of our users</strong> and thus inform our designs to the benefit of our users.</div>
     <div class="image-block"><img src="images/personas.jpg" srcset="images/personas-p-500.jpeg 500w, images/personas-p-800.jpeg 800w, images/personas-p-1080.jpeg 1080w, images/personas-p-1600.jpeg 1600w, images/personas.jpg 2000w" sizes="100vw" class="inline-image">
-      <p class="paragraph">Two personas we developed to capture user motives and drives.</p>
+      <p class="img-caption">Two personas we developed to capture user motives and drives.</p>
     </div>
-    <h4 class="heading"><strong class="bold-text-2">IDEATION &amp; SKETCHING</strong></h4>
+    <h4 class="heading"><strong class="section-header">IDEATION &amp; SKETCHING</strong></h4>
     <div class="project-text">We explored different screen styles, different delivery methods (desktop access vs. mobile access), and different information priorities. We chose to use a <strong>mobile app</strong> that used <strong>Facebook logins with connected UW IDs</strong> to facilitate the connection rather than creating an entirely new &quot;social network&quot; that would just increase service fragmentation. Below are my sketches of potential solutions, in both web and mobile formats. We decided to go with a <strong>mobile application because it would be the primary device when on-the-go and going to events.</strong></div>
     <div class="image-block"><img src="images/sketches-p-2600.jpeg" srcset="images/sketches-p-2600-p-500.jpeg 500w, images/sketches-p-2600-p-800.jpeg 800w, images/sketches-p-2600-p-1080.jpeg 1080w, images/sketches-p-2600-p-1600.jpeg 1600w, images/sketches-p-2600-p-2000.jpeg 2000w, images/sketches-p-2600.jpeg 2600w" sizes="100vw" class="inline-image">
-      <p class="paragraph">A sample of my ideation sketches!</p>
+      <p class="img-caption">A sample of my ideation sketches!</p>
     </div>
-    <h4 class="heading"><strong class="bold-text-2">STORYBOARDING</strong></h4>
+    <h4 class="heading"><strong class="section-header">STORYBOARDING</strong></h4>
     <div class="project-text">Our storyboards helped demonstrate the <strong>real world implications</strong> of our application and <strong>gave context</strong> to the different scenarios we developed in previous steps. In addition, it was useful because it enabled us to <strong>consider how users will navigate</strong> throughout the application and what actions will come from a specific interaction. In doing so, our storyboard supplemented our created information architectures and final artefacts. Below is one of the storyboards I designed! (excuse my drawing skills)</div>
     <div class="image-block"><img src="images/storyboards.jpg" srcset="images/storyboards-p-500.jpeg 500w, images/storyboards-p-800.jpeg 800w, images/storyboards.jpg 1300w" sizes="100vw" class="inline-image">
-      <p class="paragraph">A storyboard I developed to capture a specific user motivation to use the application.</p>
+      <p class="img-caption">A storyboard I developed to capture a specific user motivation to use the application.</p>
     </div>
-    <h4 class="heading"><strong class="bold-text-2">INFORMATION ARCHITECTURE</strong></h4>
+    <h4 class="heading"><strong class="section-header">INFORMATION ARCHITECTURE</strong></h4>
     <div class="project-text">We developed the information architecture – the structure of this information resource – to ensure that our application was laid out <strong>logically</strong> and provided <strong>alternate decision paths</strong>. We decided to have seven core pages: <br><br>- Home Page<br>- Individual RSO Page<br>- Individual Event Page<br>- Discover page<br>- Search page<br>- My RSOs page<br>- Settings page<br><br>The flow diagram shown below outlines both the information architecture and primary user flows.</div>
     <div class="image-block"><img src="images/interactionflow.jpg" srcset="images/interactionflow-p-500.jpeg 500w, images/interactionflow-p-800.jpeg 800w, images/interactionflow-p-1080.jpeg 1080w, images/interactionflow.jpg 1500w" sizes="100vw" class="inline-image">
-      <p class="paragraph">Our information architecture.</p>
+      <p class="img-caption">Our information architecture.</p>
     </div>
-    <h4 class="heading"><strong class="bold-text-2">PAPER PROTOTYPE &amp; USABILITY TESTING</strong></h4>
+    <h4 class="heading"><strong class="section-header">PAPER PROTOTYPE &amp; USABILITY TESTING</strong></h4>
     <div class="project-text">We developed a basic paper prototype based on our information architecture and <strong>conducted informal user testing with our low-fidelity prototype</strong>. We created three tasks for users to complete, and asked them to voice their thought process as they completed the task with the paper prototypes. We then iterated on our prototype based on the feedback we received and the pain points and confusion identified. Below is a rough overview of some of the screens we outlined.</div>
     <div class="image-block"><img src="images/paperprototype.jpg" srcset="images/paperprototype-p-500.jpeg 500w, images/paperprototype-p-800.jpeg 800w, images/paperprototype-p-1080.jpeg 1080w, images/paperprototype.jpg 1500w" sizes="100vw" class="inline-image">
-      <p class="paragraph">Some sample paper wireframes developed by all members of the team</p>
+      <p class="img-caption">Some sample paper wireframes developed by all members of the team</p>
     </div>
     <div class="project-text">The three tasks we asked our testers to complete were: <br><br>1. Finding the Location of an Event<br>2. Subscribing to RSO Notifications and Updates through an Event<br>3. Editing the Description of a Specific RSO Page<br><br>We outlined these tasks in a number of user task flows, shown below. For a more in-depth look into these user flows (with some alternate and error states), click here.</div>
     <div class="image-block"><img src="images/userflow-p-2600.jpeg" srcset="images/userflow-p-2600-p-500.jpeg 500w, images/userflow-p-2600-p-800.jpeg 800w, images/userflow-p-2600-p-1080.jpeg 1080w, images/userflow-p-2600-p-1600.jpeg 1600w, images/userflow-p-2600-p-2000.jpeg 2000w, images/userflow-p-2600.jpeg 2600w" sizes="100vw" class="inline-image">
-      <p class="paragraph">Three key user flows, outlined with motives.</p>
+      <p class="img-caption">Three key user flows, outlined with motives.</p>
     </div>
-    <h4 class="heading"><strong class="bold-text-2">USABILITY TESTING FINDINGS</strong></h4>
+    <h4 class="heading"><strong class="section-header">USABILITY TESTING FINDINGS</strong></h4>
     <div class="project-text">We reached out to the people who we did our initial user research on in order to get the most relevant feedback. By conducting these usability tests, we were able to identify strengths and pain points throughout our proposed application. We identified a number of improvements, the most notable being:<br><br><strong>1: Inconsistent references to “My RSOs” vs “My Circles”</strong><br><br>In the “Individual RSO” pages, users clicked the “+Add to Circles” button but were confused to where that RSO would be added to within the application. While this button would add the RSO to their “My RSOs” page, users found this unintuitive, citing that “If it’s adding to “My Circles” there should be a “My Circles” page instead of a “My RSOs” page”. To mitigate this, we plan to change the “My RSOs” button in the Navigation bar to a “My Circles” button, and change the iconography from a simplistic drawing of a group of humans to a set of circles.<br><br><strong>2. Alternate approach to “Changing Interests”</strong><br><br>When asked to “Edit their interests”, one participant immediately went to the Search page instead of the Settings page to change their interests. When asked why they checked the Search page first, the participant said that “I thought it would be a filter setting in the Search page”. From this, an alternate pathway to get to the “Edit your interests” settings page could be inserted within the Search page to facilitate a more intuitive interaction.<br><br><strong>3. Maps Page</strong><br><br>When asked to find the location of an event from the home screen, all participants were able to navigate through the UI quickly and accurately. However, one participant pointed out that on the Maps screen, that while they were able to get the map location of the building, they were unable to see any specific details about that location on the map without having to go back to the previous page and flip back and forth between the Event page and the Map.</div>
-    <h4 class="heading"><strong class="bold-text-2">WIREFRAMES</strong></h4>
+    <h4 class="heading"><strong class="section-header">WIREFRAMES</strong></h4>
     <div class="project-text">Wireframes of the whole app, designed on top of our research, testing, and initial paper prototype, were created to allow for more <strong>interactive user testing</strong>. These would function as a basis for continued iterative design as we identified pain points in onboarding, key user task flows, discoverability, and so on.</div>
     <div class="image-block"><img src="images/wireframes.png" srcset="images/wireframes-p-500.png 500w, images/wireframes-p-800.png 800w, images/wireframes-p-1080.png 1080w, images/wireframes.png 1500w" sizes="100vw" class="inline-image">
-      <p class="paragraph">A set of our digital wireframes.</p>
+      <p class="img-caption">A set of our digital wireframes.</p>
     </div>
     <div class="image-block"><img src="images/interaction.jpg" srcset="images/interaction-p-500.jpeg 500w, images/interaction-p-1080.jpeg 1080w, images/interaction.jpg 1200w" sizes="100vw" class="inline-image">
-      <p class="paragraph">Linking together all the buttons and interactions in Adobe XD</p>
+      <p class="img-caption">Linking together all the buttons and interactions in Adobe XD</p>
     </div>
-    <h4 class="heading"><strong class="bold-text-2">INTERACTIVE WIREFRAMES</strong></h4>
+    <h4 class="heading"><strong class="section-header">INTERACTIVE WIREFRAMES</strong></h4>
     <div class="project-text">An interactive wireframe was developed to <strong>identify pain points in key user task flows</strong> and iron them out. An example of an initial stage for our interactive wireframe is displayed below (it&#x27;s functional!).</div>
-    <h4 class="heading"><strong class="bold-text-2">HIGH-FIDELITY MOCKUPS</strong></h4>
+    <h4 class="heading"><strong class="section-header">HIGH-FIDELITY MOCKUPS</strong></h4>
     <div class="project-text">Using the iterative feedback gained from our interactive user testing, mocks of several key pages were developed. We found the biggest hurdles for our user task flows to be the specific language that was used when labelling things such as buttons as well as status feedback symbols, like the &quot;checkmark&quot; used to indicate that a user is going to event needed to be double encoded (colour &amp; symbols).</div>
     <div class="image-block"><img src="images/screens_line.png" srcset="images/screens_line-p-500.png 500w, images/screens_line-p-800.png 800w, images/screens_line-p-1080.png 1080w, images/screens_line.png 1686w" sizes="100vw" class="inline-image">
-      <p class="paragraph">Our high-fidelity mockups!</p>
+      <p class="img-caption">Our high-fidelity mockups!</p>
     </div>
     <div class="project-text">Using the iterative feedback gained from our interactive user testing, mocks of several key pages were developed. We found the biggest hurdles for our user task flows to be the specific language that was used when labelling things such as buttons as well as status feedback symbols, like the &quot;checkmark&quot; used to indicate that a user is going to event needed to be double encoded (colour &amp; symbols).</div>
-    <h4 class="heading"><strong class="bold-text-2">WHAT WOULD I DO DIFFERENTLY NEXT TIME?</strong></h4>
+    <h4 class="heading"><strong class="section-header">WHAT WOULD I DO DIFFERENTLY NEXT TIME?</strong></h4>
     <h4 class="section-header">FIX EXCLUSIONARY FACEBOOK INTEGRATION</h4>
     <div class="project-text">We chose to use Facebook + UW NetID as our primary way of logging in into the application. This was done to prevent the app from becoming &quot;yet another&quot; social media app– we wanted it to do what it needed to do, and nothing more. However, requiring Facebook as the social &quot;backbone&quot; does exclude people who choose not to use Facebook. In doing so, this application fails to address the needs of those users. To rectify this, a Facebook-supplemented &quot;friends&quot; functionality could be integrated where users could add other users as &quot;friends&quot; (Facebook friends would be automatically added) so they can enjoy the social functionality as well.</div>
     <h4 class="section-header">INCREASE APPLICATION SCOPE</h4>
     <div class="project-text">While we have specifically designed this application around the UW student experience, I can see this being used in other universities and high schools around the country. Increasing the scope of this application to allow it to be used in different environment would both challenge us and increase the app&#x27;s viability as a business.</div>
-    <h4 class="heading"><strong class="bold-text-2">REVISITING CIRCLES (WINTER 2018)</strong></h4>
+    <h4 class="heading"><strong class="section-header">REVISITING CIRCLES (WINTER 2018)</strong></h4>
     <div class="project-text">I came back to this project on my own, nearly a year after we built this the first time. Taking what I &quot;would do next time&quot; and my own personal development on mobile application design, I re-designed it to better match Apple iOS&#x27; Human Interface Guidelines as well as serve the needs of RSOs better. Some things that I addressed in this revised design:</div>
-    <ul>
+    <ul class="unordered-list">
       <li>
         <div class="list-item">The removal of the &quot;Circles&quot; moniker as a metaphor for &quot;Groups&quot;, which we used for branding&#x27;s sake. Other than the name of the application, all instances of &quot;RSOs&quot; and &quot;Groups&quot; are replaced with &quot;Groups&quot;. This also increases the scope of the application, so it can be used in contexts outside of the University of Washington</div>
       </li>
@@ -130,31 +133,31 @@
     </ul>
     <div class="sidebyside-captionwithimage">
       <div class="image-block"><img src="images/homepage.jpg" srcset="images/homepage-p-500.jpeg 500w, images/homepage-p-800.jpeg 800w, images/homepage.jpg 900w" sizes="100vw" class="inline-image">
-        <p class="paragraph">Circles home page</p>
+        <p class="img-caption">Circles home page</p>
       </div>
       <div class="image-block"><img src="images/rso-page.jpg" srcset="images/rso-page-p-500.jpeg 500w, images/rso-page-p-800.jpeg 800w, images/rso-page.jpg 900w" sizes="100vw" class="inline-image">
-        <p class="paragraph">Group page</p>
+        <p class="img-caption">Group page</p>
       </div>
       <div class="image-block"><img src="images/eventpage.jpg" srcset="images/eventpage-p-500.jpeg 500w, images/eventpage-p-800.jpeg 800w, images/eventpage.jpg 900w" sizes="100vw" class="inline-image">
-        <p class="paragraph">Individual event page</p>
+        <p class="img-caption">Individual event page</p>
       </div>
     </div>
     <div class="sidebyside-captionwithimage">
       <div class="image-block">
         <div class="inline-image w-embed"><img src="https://thumbs.gfycat.com/DisgustingSmoothLeopardseal-size_restricted.gif" width="100%" height="100%"></div>
-        <p class="paragraph">Interaction: Scrolling through the carousel of student groups and navigating to a student group page</p>
+        <p class="img-caption">Interaction: Scrolling through the carousel of student groups and navigating to a student group page</p>
       </div>
       <div class="image-block">
         <div class="inline-image w-embed"><img src="https://thumbs.gfycat.com/UnequaledDisloyalAmericantoad-size_restricted.gif" width="100%" height="100%"></div>
-        <p class="paragraph">Navigating to an individual event page</p>
+        <p class="img-caption">Navigating to an individual event page</p>
       </div>
     </div>
   </div>
   <div class="section-2">
     <div data-collapse="none" data-animation="default" data-duration="400" class="bottom-nav w-nav">
-      <div class="text-block-8">other work</div>
+      <div class="other-work-header">other work</div>
       <div class="other-work-container w-container">
-        <nav role="navigation" class="nav-menu-other-work w-nav-menu"><a href="desaster.html" class="nav-item link-fade w-nav-link">desaster interfaces</a><a href="circles.html" class="nav-item link-fade w-nav-link">circles</a><a href="venmo.html" class="nav-item link-fade w-nav-link">venmo case study</a></nav>
+        <nav role="navigation" class="nav-menu-other-work w-nav-menu"><a href="desaster.html" class="nav-item link-fade w-nav-link">desaster interfaces</a><a href="circles.html" class="nav-item link-fade w-nav-link w--current">circles</a><a href="venmo.html" class="nav-item link-fade w-nav-link">venmo case study</a></nav>
         <div class="menu-button w-nav-button">
           <div class="icon w-icon-nav-menu"></div>
         </div>
@@ -162,7 +165,7 @@
     </div>
   </div>
   <div class="section">
-    <div class="text-block-3">made from scratch, with ❤️, in seattle. copyright ostin kurniawan 2018.</div>
+    <div class="footer-text">made from scratch, with ❤️, in seattle. copyright ostin kurniawan 2018.</div>
   </div>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" type="text/javascript" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script src="js/webflow.js" type="text/javascript"></script>
