@@ -55,7 +55,11 @@
 }
 
 .navbar {
-  background-color: transparent;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  background-color: #000;
 }
 
 .other-work-container {
@@ -532,6 +536,8 @@
 }
 
 .nav-brand {
+  display: block;
+  max-width: 40%;
   margin-left: 40px;
   padding: 20px;
   font-family: Inconsolata, monospace;
@@ -627,10 +633,10 @@
 }
 
 .image-8 {
-  position: absolute;
+  position: relative;
+  left: -251px;
+  top: -236px;
   max-width: 70px;
-  margin-left: 65px;
-  padding-top: 54px;
 }
 
 @media (max-width: 991px) {
