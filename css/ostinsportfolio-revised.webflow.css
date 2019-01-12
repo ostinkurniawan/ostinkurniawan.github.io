@@ -169,12 +169,9 @@
   text-align: center;
 }
 
-.portfolio-project-link {
-  padding-bottom: -1px;
-}
-
 .project-header {
   height: 50vh;
+  margin-top: 10%;
   background-color: transparent;
 }
 
@@ -308,6 +305,7 @@
 
 .hero-row {
   height: 100%;
+  margin-top: 50px;
   padding-right: 15%;
   padding-left: 15%;
   background-color: #000;
@@ -496,6 +494,7 @@
   display: -ms-flexbox;
   display: flex;
   min-height: 100vh;
+  margin-top: 10%;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -584,6 +583,7 @@
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  background-color: #000;
 }
 
 .utility-page-content {
@@ -639,7 +639,49 @@
   max-width: 70px;
 }
 
+.div-block-3 {
+  width: 100%;
+  height: 100%;
+}
+
+.html-embed-2 {
+  width: 200px;
+}
+
+.nav-brand-animate {
+  display: block;
+  width: 500px;
+  max-width: 40%;
+  margin-left: 40px;
+  padding: 18px 20px;
+  font-family: Inconsolata, monospace;
+  color: #fff;
+  font-size: 16px;
+}
+
+.nav-brand-animate:hover {
+  opacity: 1;
+  color: #ff7d7d;
+}
+
+.brand-animate {
+  position: relative;
+  max-width: 40%;
+  min-width: 220px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.text-block-8 {
+  font-family: Inconsolata, monospace;
+  color: #cfcfcf;
+}
+
 @media (max-width: 991px) {
+  .text-block {
+    padding-right: 5%;
+    padding-left: 5%;
+  }
   .works {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -663,6 +705,7 @@
   .nav-item.link-fade {
     position: static;
     float: none;
+    background-color: #000;
   }
   .nav-item.link-fade.w--current {
     text-align: left;
@@ -688,6 +731,7 @@
     text-align: left;
   }
   .icon {
+    float: right;
     color: #333;
   }
   .heading {
@@ -705,6 +749,46 @@
     justify-content: center;
     text-align: left;
   }
+  .image-8 {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .menu-button {
+    float: none;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+  }
+  .brand {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+  }
+  .brand.w--current {
+    position: static;
+    display: block;
+    float: left;
+  }
+  .nav-brand {
+    max-width: 80%;
+  }
+  .container-3 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+  .brand-animate {
+    margin-left: 5%;
+  }
 }
 
 @media (max-width: 479px) {
@@ -714,8 +798,8 @@
   .text-block {
     padding-right: 40px;
     padding-left: 40px;
-    font-size: 1.5vh;
-    line-height: 2.5vh;
+    font-size: 14px;
+    line-height: auto;
   }
   .works {
     -webkit-box-orient: vertical;
@@ -727,6 +811,15 @@
     -webkit-justify-content: flex-start;
     -ms-flex-pack: start;
     justify-content: flex-start;
+  }
+  .navbar {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .nav-item.link-fade.w--current {
+    clear: none;
   }
   .portfolio-project-text {
     font-size: 20px;
@@ -745,6 +838,14 @@
     -ms-flex: 0 auto;
     flex: 0 auto;
     text-align: center;
+  }
+  .menu-button {
+    display: block;
+    float: left;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
   }
   .nav-menu-other-work {
     display: -webkit-box;
@@ -775,11 +876,16 @@
     padding-left: 0px;
   }
   .project-content {
-    padding-left: 10%;
+    padding-right: 11%;
+    padding-left: 11%;
+  }
+  .project-text {
+    font-size: 15px;
   }
   .info-column {
     display: block;
     height: auto;
+    padding-right: 0px;
   }
   .hero-row {
     padding-right: 5%;
@@ -807,14 +913,66 @@
     -ms-flex: 0 auto;
     flex: 0 auto;
   }
+  .top-level-nav {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    float: left;
+  }
   .image-4 {
     text-align: left;
+  }
+  .brand {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+  }
+  .nav-brand {
+    height: 100%;
+    max-width: 100%;
+    min-width: 200px;
+    margin-left: 0px;
+    padding: 0px 12px;
+    float: left;
   }
   .about-page {
     padding-right: 40px;
     padding-left: 40px;
     font-size: 1.5vh;
     line-height: 2.5vh;
+  }
+  .container-3 {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+  .nav-brand-animate {
+    display: block;
+    width: 300px;
+    height: 100%;
+    max-width: 50%;
+    min-width: 10px;
+    margin-left: 0px;
+    padding-top: 12px;
+    padding-right: 12px;
+    padding-bottom: 12px;
+    float: left;
+  }
+  .brand-animate {
+    min-width: 180px;
+    margin-left: 0%;
   }
 }
 
