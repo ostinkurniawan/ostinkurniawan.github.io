@@ -125,7 +125,7 @@
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: rgba(0, 0, 0, .9);
+  background-color: rgba(0, 0, 0, .75);
   -webkit-transition: background-color 300ms ease, color 300ms ease;
   transition: background-color 300ms ease, color 300ms ease;
   font-family: Inconsolata, monospace;
@@ -159,7 +159,7 @@
   padding: 19px;
   font-family: europa;
   color: #cfcfcf;
-  font-size: 12px;
+  font-size: 10px;
 }
 
 .portfolio-project {
@@ -1184,6 +1184,11 @@
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
     -webkit-box-flex: 1;
     -webkit-flex: 1;
     -ms-flex: 1;
@@ -1213,6 +1218,10 @@
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
     justify-content: space-between;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
   }
   .nav-brand-animate {
     display: block;
@@ -1228,7 +1237,7 @@
   }
   .brand-animate {
     min-width: 180px;
-    margin-left: 0%;
+    padding-left: 12px;
   }
   .project-content-list {
     padding-left: 20px;
