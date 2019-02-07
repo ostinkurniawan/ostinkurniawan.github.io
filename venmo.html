@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Sat Jan 12 2019 10:12:29 GMT+0000 (UTC)  -->
+<!--  Last Published: Thu Feb 07 2019 04:03:31 GMT+0000 (UTC)  -->
 <html data-wf-page="5c399b840817331b0b628c87" data-wf-site="5a83726d0aeb2000019fd7b6">
 <head>
   <meta charset="utf-8">
@@ -22,32 +22,30 @@
   <script type="text/javascript">(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');ga('create', 'UA-109916440-1', 'auto');ga('send', 'pageview');</script>
 </head>
 <body class="body">
-  <div data-collapse="medium" data-animation="default" data-duration="400" class="navbar w-nav">
+  <div data-collapse="small" data-animation="default" data-duration="400" class="navbar w-nav">
     <div class="container-3 w-container"><a href="index.html" class="brand w-nav-brand"><img src="images/fullname.svg" width="550" alt="" class="nav-brand"></a>
       <div class="menu-button w-nav-button">
         <div class="icon w-icon-nav-menu"></div>
       </div>
-      <nav role="navigation" class="nav-menu-other-work w-nav-menu"><a href="index.html" class="nav-item link-fade w-nav-link">works</a><a href="daily-ui.html" class="nav-item link-fade w-nav-link">daily ui</a><a href="about.html" class="nav-item link-fade w-nav-link">about</a><a href="documents/ostin_resume.pdf" target="_blank" class="nav-item link-fade w-nav-link">resumé</a></nav>
+      <nav role="navigation" class="nav-menu-other-work w-nav-menu">
+        <div data-delay="0" data-hover="1" class="w-dropdown">
+          <div class="dropdown-toggle w-dropdown-toggle">
+            <div class="nav-item link-fade">works</div>
+          </div>
+          <nav class="dropdown-list w-dropdown-list"><a href="recap.html" class="dropdown-link-sub link-fade nav-item w-dropdown-link">recap pca</a><a href="circles.html" class="dropdown-link-sub link-fade nav-item w-dropdown-link">circles</a><a href="venmo.html" class="dropdown-link-sub link-fade nav-item w-dropdown-link w--current">venmo case study</a><a href="desaster.html" class="dropdown-link-sub link-fade nav-item w-dropdown-link">DESaster vis package</a></nav>
+        </div><a href="daily-ui.html" class="nav-item link-fade w-nav-link">daily ui</a><a href="about.html" class="nav-item link-fade w-nav-link">about</a><a href="documents/ostin_resume.pdf" target="_blank" class="nav-item link-fade w-nav-link">resumé</a></nav>
     </div>
   </div>
   <div class="project-header">
-    <div class="hero-row w-row">
-      <div class="column w-col w-col-6">
-        <h4 class="heading"><strong class="bold-text">VENMO CASE STUDY</strong></h4>
-        <h2 class="heading">A faster, more intuitive way to pay people and groups of people.</h2>
-      </div>
-      <div class="column w-col w-col-6"><img src="images/Google-Pixel-Very-Black.png" srcset="images/Google-Pixel-Very-Black-p-500.png 500w, images/Google-Pixel-Very-Black-p-800.png 800w, images/Google-Pixel-Very-Black.png 1000w" sizes="(max-width: 479px) 77vw, (max-width: 767px) 61vw, (max-width: 991px) 30vw, 31vw" alt="" class="project-header-image"></div>
+    <div class="project-info">
+      <h1 class="project-title">VENMO CASE STUDY</h1>
+      <div class="project-text">A faster, more intuitive way to pay groups of people.</div>
     </div>
+    <div class="project-info"><img src="images/Google-Pixel-Very-Black.png" srcset="images/Google-Pixel-Very-Black-p-500.png 500w, images/Google-Pixel-Very-Black-p-800.png 800w, images/Google-Pixel-Very-Black.png 1000w" sizes="(max-width: 479px) 78vw, (max-width: 991px) 35vw, 25vw" alt=""></div>
   </div>
-  <div class="project-info">
-    <div class="info-row w-row">
-      <div class="info-column w-col w-col-6">
-        <div class="text-block-6"><strong>Design<br><br>DATE</strong> Winter 2017<br><strong>ROLE</strong> UX Designer<br><strong>PROJECT</strong> Improve the payment process<br><strong>TEAM</strong> Ostin Kurniawan</div>
-      </div>
-      <div class="info-column w-col w-col-6">
-        <div class="text-block-7">A personal redesign of Venmo&#x27;s Search functionality.<br><br>A UX analysis and redesign of the payment/search user flow in Venmo.</div>
-      </div>
-    </div>
+  <div class="project-header">
+    <div class="text-block-6"><strong>Design • Prototype<br><br>DATE </strong>Winter 2018<strong><br>ROLE </strong>UX Designer<strong><br>PROJECT </strong>Allow people to pay others faster.<strong><br>‍<br>TEAM <br></strong>Ostin Kurniawan, Product Designer<br></div>
+    <div class="text-block-7">A personal redesign of Venmo&#x27;s Search functionality.<br><br>A UX analysis and redesign of the payment/search user flow in Venmo.</div>
   </div>
   <div class="project-content">
     <h4 class="heading"><strong class="section-header">INTRODUCTION</strong></h4>
@@ -56,7 +54,7 @@
       <p class="img-caption">The Venmo app, as of January 2018. Note the small &quot;QR&quot; icon near the user image in the left screenshot, and the fact that my Facebook friend &quot;Casey&quot; does not show up immediately as a search result.</p>
     </div>
     <h4 class="section-header">Venmo effectively has two types of ‘Friends’ — Venmo Friends and Facebook Friends. This distinction is not immediately clear.</h4>
-    <ul>
+    <ul class="project-content-list">
       <li>
         <div class="list-item">Facebook friends are not automatically added as Venmo Friends, even though the account is linked.</div>
       </li>
@@ -68,7 +66,7 @@
       </li>
     </ul>
     <h4 class="section-header">While the act of scanning Venmo Codes is immediately accessible and easy to use, finding the Venmo code to share is not very intuitive or quick.</h4>
-    <ul>
+    <ul class="project-content-list">
       <li>
         <div class="list-item">Finding a Venmo code requires the user to dive into many menus.</div>
       </li>
@@ -81,7 +79,7 @@
     </div>
     <h4 class="heading"><strong class="section-header"><br>COMPETITIVE ANALYSIS</strong></h4>
     <div class="project-text">I researched other “peer payment” apps like Cash App (previously Square Cash), Messenger Pay, Apple Pay Cash, and Google Wallet. I studied their search functions, especially in relation to the process of group payments. I also studied the search functions of other social apps like Snapchat, Facebook, and Instagram to identify best practices in ensuring that what is searched for is most relevant to the user. In doing so, I came up with a number of key insights:</div>
-    <ul>
+    <ul class="project-content-list">
       <li>
         <div class="list-item">In Instagram and Snapchat, the service provides a number of <strong>‘Suggested’ users</strong> to interact with, presumably based on most recently or most interacted with. It <strong>then breaks down search into ‘Recent’ or ‘Top’</strong>, which sort by immediate friends or people you’ve interacted with based on those criterion. <strong>People you have never interacted with are at the bottom of the list, and out of sight unless you specifically scroll down far enough.</strong></div>
       </li>
@@ -110,7 +108,7 @@
     </div>
     <h4 class="heading"><strong class="section-header"><br>PROTOYPING</strong></h4>
     <div class="project-text">Since I would be iterating on the existing Venmo interface rather than completely redesigning it, I decided that jumping straight into high-fidelity prototyping would save me time. Framer allows for quick and live iterations, and so I could test these live, especially with the Framer Preview app, which allows me to send the prototypes to a phone for live testing. I started the redesign process by re-creating screenshots of the Venmo Android app. My goal is to redesign the Search interaction and not the entire app, and so copying the original Android app gave me insight into both Venmo’s design language and the Material Design specification used. Once three basic screens were copied (Venmo home screen, Pay/Request opening screen, and Pay/Request search results), I iterated on these until solutions were achieved.I focused on solving only one user flow: requesting/paying people that are not your Venmo friends. There are three types of screens in the Payment/Request sequence (referenced as “P/R sequence” hereafter):</div>
-    <ul>
+    <ul class="project-content-list">
       <li>
         <div class="list-item">The “Add” screen, which is the default state when no search query is inputted. Here, “Top People” can be added quickly to the list of P/R receipients.</div>
       </li>
@@ -204,11 +202,11 @@
     <h4 class="heading"><strong class="section-header"><br>REFLECTION</strong></h4>
     <div class="project-text">Over this process, I have learned a ton about the micro-interactions that make interactions more intuitive, less painful, and more efficient. This project has allowed me to also become much more familiar with the Material Design spec, making me more confident that I can use it effectively and efficiently. In addition to the suggestions made in round 2 of the user testing, some things I’d like to improve on are in-screen animations that use movement, especially within the Material Design spec, to make the interactions clearer and even more intuitive. Overall, I’ve had a ton of fun doing this redesign and it has only solidified my love for the process.</div>
   </div>
-  <div class="section-2">
+  <div class="bottom-nav-section">
     <div data-collapse="none" data-animation="default" data-duration="400" class="bottom-nav w-nav">
       <div class="other-work-header">other work</div>
       <div class="other-work-container w-container">
-        <nav role="navigation" class="nav-menu-other-work w-nav-menu"><a href="desaster.html" class="nav-item link-fade w-nav-link">desaster interfaces</a><a href="circles.html" class="nav-item link-fade w-nav-link">circles</a><a href="venmo.html" class="nav-item link-fade w-nav-link w--current">venmo case study</a></nav>
+        <nav role="navigation" class="nav-menu-other-work w-nav-menu"><a href="recap.html" class="nav-item link-fade w-nav-link">recap pca</a><a href="venmo.html" class="nav-item link-fade w-nav-link w--current">venmo case study</a><a href="circles.html" class="nav-item link-fade w-nav-link">circles</a><a href="desaster.html" class="nav-item link-fade w-nav-link">desaster interfaces</a></nav>
         <div class="menu-button w-nav-button">
           <div class="icon w-icon-nav-menu"></div>
         </div>
