@@ -201,6 +201,11 @@ body {
   font-weight: 400;
 }
 
+.read-more.inline-link {
+  margin-top: 8px;
+  margin-left: 0px;
+}
+
 .nav-item {
   display: -webkit-box;
   display: -webkit-flex;
@@ -372,6 +377,14 @@ body {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+}
+
+.restricted-link {
+  display: block;
+  margin-top: 0px;
+  margin-left: 8px;
+  color: #666;
+  font-weight: 400;
 }
 
 @media screen and (max-width: 991px) {
