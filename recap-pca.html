@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<!--  This site was created in Webflow. http://www.webflow.com  -->
+<!--  Last Published: Fri Oct 23 2020 21:08:18 GMT+0000 (Coordinated Universal Time)  -->
+<html data-wf-page="5f28c857cb613e6781eccba5" data-wf-site="5f289c44a59aed6df3dce33b">
+<head>
+  <meta charset="utf-8">
+  <title>Recap PCA</title>
+  <meta content="Recap PCA" property="og:title">
+  <meta content="Recap PCA" property="twitter:title">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta content="Webflow" name="generator">
+  <link href="css/normalize.css" rel="stylesheet" type="text/css">
+  <link href="css/webflow.css" rel="stylesheet" type="text/css">
+  <link href="css/ostin2.webflow.css" rel="stylesheet" type="text/css">
+  <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
+  <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
+  <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon">
+  <link href="images/webclip.png" rel="apple-touch-icon">
+</head>
+<body>
+  <div data-animation="over-left" class="main-nav w-nav" data-easing2="ease-in-out" data-easing="ease-in-out" data-collapse="small" role="banner" data-no-scroll="1" data-duration="120" data-doc-height="1">
+    <div class="menu-container w-container">
+      <a href="index.html" class="brand w-nav-brand">
+        <div class="global-name">Ostin</div>
+        <div class="tagline">Product Designer</div>
+      </a>
+      <nav role="navigation" class="nav-menu w-nav-menu">
+        <div class="nav-label"><a href="index.html" class="inline-link">&lt;- Back</a></div>
+        <div class="nav-label">Seattle Children&#x27;s Hospital</div>
+        <div class="nav-item"><a href="#overview" class="indicator w-inline-block"></a><a href="#overview" class="nav">Overview</a></div>
+        <div class="nav-item"><a href="#context" class="indicator w-inline-block"></a><a href="#context" class="nav">Context</a></div>
+        <div class="nav-item"><a href="#research" class="indicator w-inline-block"></a><a href="#research" class="nav">Research &amp; Lit. Review</a></div>
+        <div class="nav-item"><a href="#product-direction" class="indicator w-inline-block"></a><a href="#product-direction" class="nav">Product Direction</a></div>
+        <div class="nav-item"><a href="#ideation" class="indicator w-inline-block"></a><a href="#ideation" class="nav">Ideation</a></div>
+        <div class="nav-item"><a href="#usability-testing" class="indicator w-inline-block"></a><a href="#usability-testing" class="nav">Usability Testing</a></div>
+        <div class="nav-item"><a href="#iterations" class="indicator w-inline-block"></a><a href="#iterations" class="nav">Iterations</a></div>
+        <div class="nav-item"><a href="#final-prototype" class="indicator w-inline-block"></a><a href="#final-prototype" class="nav">Final Prototype</a></div>
+        <div class="nav-item"><a href="#reflection" class="indicator w-inline-block"></a><a href="#reflection" class="nav">Reflection &amp; Next Steps</a></div>
+      </nav>
+      <div class="menu-button w-nav-button">
+        <div class="w-icon-nav-menu"></div>
+      </div>
+    </div>
+  </div>
+  <div class="content w-container">
+    <section id="overview" class="hero-home">
+      <div class="project-details">
+        <div class="project-name">Seattle Children&#x27;s Hospital</div>
+        <div class="project-date">01-06.2018</div>
+      </div>
+      <div class="project-image"><img src="images/20180606-P1080132_1-1.jpg" alt="a video preview of a banking app" sizes="(max-width: 479px) 90vw, (max-width: 767px) 92vw, (max-width: 991px) 73vw, 60vw" srcset="images/20180606-P1080132_1-1-p-500.jpeg 500w, images/20180606-P1080132_1-1-p-800.jpeg 800w, images/20180606-P1080132_1-1.jpg 1000w"></div>
+      <div class="project-text">
+        <div class="project-body">Recap PCA is a proof-of-concept hardware and software prototype designed for outpatient opioid management. </div>
+      </div>
+      <div class="divider divider-faded"></div>
+      <div class="project-details">
+        <div class="section-title">Overview</div>
+      </div>
+      <div class="project-text">
+        <div class="project-body">Recap PCA was developed with the guidance of anesthesiologists at Seattle Children&#x27;s Hospital / University of Washington. It is protected as a University of Washington CoMotion Invention #48371.</div>
+        <div class="w-layout-grid grid-roles">
+          <div class="project-body">Role<br></div>
+          <div class="project-body">Product Designer<br></div>
+          <div class="project-body">Primary Responsibilities<br></div>
+          <div class="project-body">Lit. Reviews, Interface Design and UX, Hardware &amp; Software Engineering<br></div>
+          <div class="project-body">Team<br></div>
+          <div class="project-body"><a href="https://macklees.com" class="inline-link">Mackenna Lees→</a>(Comp. Analysis, Interface Design and UX, Content Design, Testing)<br>‍<a href="https://scotthsmith.com" class="inline-link">Scott Smith→</a> (Project Management, UX, Analytics, Industrial Design)<br>‍<a href="https://jillanerishah.com" class="inline-link">Jill Aneri Shah→</a> (Research Coordination, UX, Hardware Development, Usability)<br></div>
+        </div>
+      </div>
+      <div class="divider divider-faded"></div>
+    </section>
+    <section id="context" class="project-block">
+      <div class="project-details">
+        <div class="section-title">Context</div>
+      </div>
+      <div class="project-text">
+        <div class="project-body">After surgery, patients in a hospital setting are closely monitored and often given powerful opioid-based analgesics (painkillers). In some cases, patient-controlled analgesia (PCA) devices are used, allowing for pain management that is more tailored to the patient&#x27;s specific experience, but are notably still monitored by healthcare professionals. <br><br>However, when patients move back home, they are often given a generous prescription for powerful yet addictive opioid-based analgesics (painkillers). Unlike the experience in a controlled hospital environment, patients are suddenly faced with the need to regulate their own pain medication while they recover. The combination of over-prescription, ineffective self-regulation, and a lack of awareness of drug return practices has contributed to an opioid crisis that has claimed more than 42,000 deaths and two million cases of opioid abuse in 2016 alone.<br><br>This project is an investigation into bringing the concept of patient-controlled analgesia into the home. Ultimately, this project aims to address, at least in part:<br></div>
+        <ul role="list" class="inline-list">
+          <li class="list-item">
+            <div class="project-body">Lack of education and the resultant anxiety around proper management of pain at home<br></div>
+          </li>
+          <li class="list-item">
+            <div class="project-body">Historically overgenerous prescribing practices of opioids<br></div>
+          </li>
+          <li class="list-item">
+            <div class="project-body">Dosage vs. relative effect of a given painkiller is different for each patient; current one-size-fits-all approach does not accurately account for these difference<br></div>
+          </li>
+          <li class="list-item">
+            <div class="project-body">Lack of visibility into a patient&#x27;s actual use of the opioids<br></div>
+          </li>
+          <li class="list-item">
+            <div class="project-body">Lack of ability to accurately step a patient down from opioids without significant confidence from the patient or time-intensive guidance from the doctor,<br></div>
+          </li>
+          <li class="list-item">
+            <div class="project-body">Low return rate of unusued opioids – unused opioids may abused by non-patients who find them in the home or may be illicitly sold<br></div>
+          </li>
+        </ul>
+      </div>
+      <div class="divider divider-faded"></div>
+    </section>
+    <section id="research" class="project-block">
+      <div class="project-details">
+        <div class="section-title">Research &amp; Lit. Review</div>
+      </div>
+      <div class="project-details">
+        <div class="subsection-title">Competitive Analysis</div>
+      </div>
+      <div class="project-text">
+        <div class="project-body">We conducted a competitive analysis of twelve existing pill adherence, reminder systems, and dispensing products on the market to identify existing modalities, features, storage methods, and scenarios where these devices could be used. We found that many at-home devices on the market primarily serve one purpose: long-term, static-schedule pill adherence, especially for multi-pill situations such as morning vitamins and medication. <br><br>Contrastingly, the use-case for Recap PCA would be short-term management of controlled substances, none of which the competitors addressed.</div>
+      </div>
+      <div class="project-details">
+        <div class="subsection-title">User Interviews</div>
+      </div>
+      <div class="project-text">
+        <div class="project-body">To gain a better overall understanding of the problem space and current experiences from a user/patient perspective, we conducted seven semi-structured interviews, all the participants of which were  given opioids after a surgery, with ages ranging from 21 to 82 and representing a wide variety of backgrounds including students, medical professionals, and schoolteachers. <br></div>
+      </div>
+      <div class="project-details">
+        <div class="subsection-title">Literature Review</div>
+      </div>
+      <div class="project-text">
+        <div class="project-body">A literature review on a total of nine (9) background papers was conducted to gain a deeper academic and in-practice understanding of the problem, its implications, and existing interaction design conventions and existing medical devices on the market.<br><br>Some key quotes: <br></div>
+      </div>
+      <ul role="list" class="inline-list">
+        <li class="list-item">
+          <div class="project-body">“In the open-ended response portion of the survey, patients commented on this ambiguity with the following comments: “anxious on whether or not to hit the button,” “left in the dark,” “making the pain worse,” and “always in pain because I never knew if I was actually getting any medicine.” The ambiguity around pain medication delivery and the denied attempts during the lockout period may contribute to patients’ perceptions that the PCA is an unreliable pain treatment modality.”<br>- Patak et. al, 2014<br></div>
+        </li>
+        <li class="list-item">
+          <div class="project-body">“In summary, the Abbott PCA Plus II interface does not conform with existing human factors guidelines, thereby unnecessarily increasing both the demands on users and the probability of human errors.”<br>- Lin et al., 1998<br></div>
+        </li>
+      </ul>
+      <div class="project-details">
+        <div class="subsection-title">Overall Research Findings</div>
+      </div>
+      <div class="project-text">
+        <div class="project-body">Key high-level findings from our research included:<br></div>
+      </div>
+      <ul role="list" class="inline-list">
+        <li class="list-item">
+          <div class="project-body">Patients are not entirely familiar with proper pain management<br></div>
+        </li>
+        <li class="list-item">
+          <div class="project-body">Over-prescription is not uncommon, as there is no data to inform prescription amounts on a per-patient basis<br></div>
+        </li>
+        <li class="list-item">
+          <div class="project-body">Error-recovery methods in existing medical devices is currently a large pain point<br></div>
+        </li>
+        <li class="list-item">
+          <div class="project-body">Medical interface design is not always consistent, leading to errors when using competitor products<br></div>
+        </li>
+        <li class="list-item">
+          <div class="project-body">Social implications of medical devices must be mitigated, such as having a medical device on display in the home. <br></div>
+        </li>
+      </ul>
+      <div class="divider divider-faded"></div>
+    </section>
+    <section id="product-direction" class="project-block">
+      <div class="project-details">
+        <div class="section-title">Product Direction</div>
+      </div>
+      <div class="project-text">
+        <div class="project-body">Through this research, we proposed our high-level solution: <strong>a connected, in-home opioid dispenser, which could gently step users down towards lower or less frequent doses of medication and provide caregivers with the resultant data.<br><br></strong>This approach was approved by our stakeholders, and address a number of issues:<br></div>
+        <ul role="list" class="inline-list">
+          <li class="list-item">
+            <div class="project-body">Being able to guide and monitor a patient with their own reported experiences (dose vs. individual experience of pain) allows healthcare professionals to better tailor prescribing practices to individual experiences and help prevent abuse<br></div>
+          </li>
+          <li class="list-item">
+            <div class="project-body">Automatically step down a patient from opioids to non-opioid painkillers to help prevent addiction<br></div>
+          </li>
+          <li class="list-item">
+            <div class="project-body">Preserving the agency of the patient, and still allow for use of opioids when necessary.<br></div>
+          </li>
+          <li class="list-item">
+            <div class="project-body">Patients having to report their pain levels regularly increases mindfulness of their dosing regimen.<br></div>
+          </li>
+          <li class="list-item">
+            <div class="project-body">Connected device surrounding use and dosing data can provide robust data to inform broader dosing practices of opioids<br></div>
+          </li>
+          <li class="list-item">
+            <div class="project-body">Return of hardware at end of recovery can improve the return rate of unused opioids, rather than having unused opioids lay around the patient home<br></div>
+          </li>
+        </ul>
+        <div class="project-text">
+          <div class="project-body">A high-level overview of where the product fits within a typical use-case is outlined below:</div>
+        </div>
+        <div class="project-image"><a href="#" class="lightbox w-inline-block w-lightbox"><img src="images/problem-space.png" alt="a video preview of a banking app" sizes="(max-width: 479px) 90vw, (max-width: 767px) 92vw, (max-width: 991px) 73vw, 60vw" srcset="images/problem-space-p-500.png 500w, images/problem-space-p-800.png 800w, images/problem-space-p-1080.png 1080w, images/problem-space.png 1501w" class="inline-image"><script type="application/json" class="w-json">{
+  "items": [
+    {
+      "type": "image",
+      "_id": "5f679f739c46913d39a90fc1",
+      "fileName": "5f679f739c46913d39a90fc1_problem-space.png",
+      "origFileName": "problem-space.png",
+      "width": 1501,
+      "height": 947,
+      "fileSize": 81050,
+      "url": "images/problem-space.png"
+    }
+  ]
+}</script></a></div>
+      </div>
+      <div class="divider divider-faded"></div>
+    </section>
+    <section id="ideation" class="project-block">
+      <div class="project-details">
+        <div class="section-title">Ideation</div>
+      </div>
+      <div class="project-details">
+        <div class="subsection-title">Form and Hardware</div>
+      </div>
+      <div class="project-text">
+        <div class="project-body">Our team began to develop concepts for the hardware design of the device itself. Over the course of several weeks, we ideated on our own and reviewed them with the team (a sort of rapid design-only sprint), refining and sharing ideas around both the form and the internal dispensing mechanism itself. <br><br>We physically 3D-printed more than 25 different versions of internal dispensing components, form factors, and other ideas. <br></div>
+      </div>
+      <div class="project-image"><a href="#" class="lightbox w-inline-block w-lightbox"><img src="images/sketches.png" alt="a video preview of a banking app" sizes="(max-width: 479px) 90vw, (max-width: 767px) 92vw, (max-width: 991px) 73vw, 60vw" srcset="images/sketches-p-500.png 500w, images/sketches-p-800.png 800w, images/sketches.png 894w" class="inline-image"><script type="application/json" class="w-json">{
+  "items": [
+    {
+      "type": "image",
+      "_id": "5f67a71bf348daebaba1c3f0",
+      "fileName": "5f67a71bf348daebaba1c3f0_sketches.png",
+      "origFileName": "sketches.png",
+      "width": 894,
+      "height": 829,
+      "fileSize": 451809,
+      "url": "images/sketches.png"
+    }
+  ]
+}</script></a>
+        <div class="project-text">
+          <div class="image-caption-title">Ideation on form factors<br></div>
+          <p class="image-caption">Top-left: dispensing mechanisms, circular/cylindrical designs, “Nespresso”-inspired pill dispenser; top-right: notification ideas, integration of pill bottles; bottom-left: inspired by a coffee machine, integrating a handle, locking mechanism, hand-accomodating pill dispenser; bottom-center: pill bottles, machines, cup designs, novel designs; bottom-right: interface integration, form factors, integration with dispensing mechanism</p>
+        </div>
+      </div>
+      <div class="project-image"><a href="#" class="lightbox w-inline-block w-lightbox"><img src="images/dispensing-p-2000.png" alt="a video preview of a banking app" sizes="(max-width: 479px) 90vw, (max-width: 767px) 92vw, (max-width: 991px) 73vw, 60vw" srcset="images/dispensing-p-2000-p-500.png 500w, images/dispensing-p-2000-p-800.png 800w, images/dispensing-p-2000-p-1080.png 1080w, images/dispensing-p-2000-p-1600.png 1600w, images/dispensing-p-2000.png 2000w" class="inline-image"><script type="application/json" class="w-json">{
+  "items": [
+    {
+      "type": "image",
+      "_id": "5f67a780721763225d293540",
+      "fileName": "5f67a780721763225d293540_dispensing-p-2000.png",
+      "origFileName": "dispensing-p-2000.png",
+      "width": 2000,
+      "height": 826,
+      "fileSize": 633783,
+      "url": "images/dispensing-p-2000.png"
+    }
+  ]
+}</script></a>
+        <div class="project-text">
+          <div class="image-caption-title">Ideation on dispensing mechanisms<br></div>
+          <p class="image-caption">Left: exploded diagram of an upright circular mechanism, integration into a form; center: Circular-feeding, pill-bottle based, etc.; right: Various dispensing mechanisms, including circular, linear-feeding, and spring-loaded</p>
+        </div>
+      </div>
+      <div class="project-details">
+        <div class="subsection-title">User Interface and User Flow</div>
+      </div>
+      <div class="project-text">
+        <div class="project-body">In addition to the design of the physical device itself, an obvious key component to such a device is how a user might interact with it. We explored ideas relating to physical buttons, interfaceless devices, and integration into a patient&#x27;s home environment, but settled on a small 3.5&quot; touchscreen as more &quot;low-tech&quot; approaches were not able to fully address the fidelity of actions that were desired. <br><br>The user flow was based on three core concepts: self-reporting of pain level (via a numeric pain scale), a resultant recommended dose type / amount, and final selection by the patient of the actual medication to dispense. <br>‍<br>A key part of the experience outside of the &quot;golden path&quot; of just collecting data, recommending, and dispensing is the number of secondary cases that relate to improper opioid use (not safe to ingest n amount of medication within a given timeframe) and patient agency (a patient should never feel as if they are truly unable to dispense medication if they really need it). <br></div>
+      </div>
+      <div class="project-image"><a href="#" class="lightbox w-inline-block w-lightbox"><img src="images/initial-flow.jpg" alt="a video preview of a banking app" sizes="(max-width: 479px) 90vw, (max-width: 767px) 92vw, (max-width: 991px) 73vw, 60vw" srcset="images/initial-flow-p-500.jpeg 500w, images/initial-flow-p-800.jpeg 800w, images/initial-flow.jpg 886w" class="inline-image"><script type="application/json" class="w-json">{
+  "items": [
+    {
+      "type": "image",
+      "_id": "5f67a8ae01a9195c421e1b60",
+      "fileName": "5f67a8ae01a9195c421e1b60_initial-flow.jpg",
+      "origFileName": "initial-flow.jpg",
+      "width": 886,
+      "height": 774,
+      "fileSize": 108316,
+      "url": "images/initial-flow.jpg"
+    }
+  ]
+}</script></a>
+        <div class="project-text">
+          <div class="image-caption-title">Preliminary user flow (UI ver. 1)<br></div>
+          <p class="image-caption"><strong>‍</strong>A preliminary, recommendation-based user flow was developed and tested with stakeholders, creating a flow that not only completed the desired task, but navigated existing power structures in a medical environment.  <br></p>
+        </div>
+      </div>
+      <div class="project-details">
+        <div class="subsection-title">Content Design</div>
+      </div>
+      <div class="project-text">
+        <div class="project-body">At its core, the device is acting as an in-home &quot;replacement&quot; for the guidance usually given by a healthcare professional. As patients may be experience anxiety, fatigue, and of course pain, the content and writing style we use is essential to making a user feel comfortable, in control at all times (esp. in emergencies), and hopefully as if the device was acting in the best interests or at minimum, neutral in relation to the patient&#x27;s experience. While we had basic ideas of what this type of tone would be in our initial ideation and early drafts, the following usability testing would be integral to getting things right. <br></div>
+      </div>
+      <div class="project-details">
+        <div class="subsection-title">Analytics Framework</div>
+      </div>
+      <div class="project-text">
+        <div class="project-body">Collecting data on users of any device or service is not a benign action. Data may be stolen or abused with little regard for its impact on others. As a result, our team has carefully considered the role data collection plays in this device. Currently, opioid prescribing practices are based largely upon guesswork. Data collection in aggregate form can potentially play an important role in providing researchers and caregivers numeric data for prescription use, patterns, and behaviours. In light of this, we have determined that collecting such analytics as a device feature is worthwhile and aligns with both patient and caregiver values.<br></div>
+      </div>
+      <div class="project-image"><a href="#" class="lightbox w-inline-block w-lightbox"><img src="images/bounds.png" alt="a video preview of a banking app" sizes="(max-width: 479px) 90vw, (max-width: 767px) 92vw, (max-width: 991px) 73vw, 60vw" srcset="images/bounds-p-500.png 500w, images/bounds.png 965w" class="inline-image"><script type="application/json" class="w-json">{
+  "items": [
+    {
+      "type": "image",
+      "_id": "5f8f367a116c9cb2bb02363b",
+      "fileName": "bounds.png",
+      "origFileName": "bounds.png",
+      "width": 965,
+      "height": 546,
+      "fileSize": 14387,
+      "url": "images/bounds.png"
+    }
+  ]
+}</script></a>
+        <div class="project-text">
+          <div class="image-caption-title">Rough idea of upper and lower bounds of pain at any given time<br></div>
+          <p class="image-caption">Device would be able to inform such a graph, to check for significant deviation from the “norm” and identify erroneous incidences of pain and/or pill dispensing<br></p>
+        </div>
+      </div>
+      <div class="project-image"><a href="#" class="lightbox w-inline-block w-lightbox"><img src="images/analytics-framework.png" alt="a video preview of a banking app" sizes="(max-width: 479px) 90vw, (max-width: 767px) 92vw, (max-width: 991px) 73vw, 60vw" srcset="images/analytics-framework-p-500.png 500w, images/analytics-framework-p-800.png 800w, images/analytics-framework-p-1080.png 1080w, images/analytics-framework.png 1391w" class="inline-image"><script type="application/json" class="w-json">{
+  "items": [
+    {
+      "type": "image",
+      "_id": "5f8f39f513f8b497abe78d4b",
+      "fileName": "analytics framework.png",
+      "origFileName": "analytics framework.png",
+      "width": 1391,
+      "height": 830,
+      "fileSize": 50343,
+      "url": "images/analytics-framework.png"
+    }
+  ]
+}</script></a>
+        <div class="project-text">
+          <div class="image-caption-title">High-level analytics framework<br></div>
+          <p class="image-caption">How the data could be used to both intervene in erroneous dosing situations and/or inform future dosing regimens.<br></p>
+        </div>
+      </div>
+      <div class="divider divider-faded"></div>
+    </section>
+    <section id="usability-testing" class="project-block">
+      <div class="project-details">
+        <div class="section-title">Usability Testing</div>
+      </div>
+      <div class="project-details">
+        <div class="subsection-title">Protocol</div>
+      </div>
+      <div class="project-text">
+        <div class="project-body">Testing was conducted in an in-person moderated format. Two scenarios, a semi-structured interview protocol, and hypotheses were developed to test golden-paths and core functionality. Ten users of varying ages, backgrounds, and experiences with pain participated and signed consent forms for this moderated usability study. <br></div>
+      </div>
+      <div class="project-image"><a href="#" class="lightbox w-inline-block w-lightbox"><img src="images/figma-flow.png" alt="a video preview of a banking app" sizes="(max-width: 479px) 90vw, (max-width: 767px) 92vw, (max-width: 991px) 73vw, 60vw" srcset="images/figma-flow-p-500.png 500w, images/figma-flow-p-800.png 800w, images/figma-flow.png 910w" class="inline-image"><script type="application/json" class="w-json">{
+  "items": [
+    {
+      "type": "image",
+      "_id": "5f8b2a3d39466a5432c81c2d",
+      "fileName": "5f8b2a3d39466a5432c81c2d_figma-flow.png",
+      "origFileName": "figma-flow.png",
+      "width": 910,
+      "height": 1025,
+      "fileSize": 174624,
+      "url": "images/figma-flow.png"
+    }
+  ]
+}</script></a>
+        <div class="project-text">
+          <div class="image-caption-title">Prototype UI for Usability Testing (UI approx. ver. 4)<br></div>
+          <p class="image-caption">This UI was tested with users on iPad via a Figma prototype. To keep manufacturing costs low, we initially proposed a UI with a non-touch screen navigated by seven buttons (X, low, med, high, no, yes, and override) but quickly found in testing that the &quot;simplicity&quot; created more problems than it solved – a touch interface was preferred by users. <br></p>
+        </div>
+      </div>
+      <div class="project-details">
+        <div class="subsection-title">Findings</div>
+      </div>
+      <div class="w-layout-grid grid-table">
+        <div class="image-caption-title">Observation<br></div>
+        <div class="image-caption-title">Design Implications<br></div>
+        <div class="project-body">Users often wanted to see other medication options after being recommended one. The “Other Options” page had no option to select the recommended dose or return to the previous screen.<br></div>
+        <ul role="list">
+          <li class="list-item">
+            <div class="project-body">Error recovery needed to be improved; allow for<br>exploration of the UI without penalty<br></div>
+          </li>
+          <li class="list-item">
+            <div class="project-body">Streamline the user flows and make each path clear<br></div>
+          </li>
+          <li class="list-item">
+            <div class="project-body">Eliminate the “other options” page<br></div>
+          </li>
+        </ul>
+        <div class="project-body">At times, users skipped (and did not read) the text beneath the headline that told them what each button did. Users had no issue understanding and rating their pain from the scenario on a 0–3 point scale.<br></div>
+        <ul role="list">
+          <li class="list-item">
+            <div class="project-body">May need to intentionally shift UI elements to prevent mindless tapping<br></div>
+          </li>
+          <li class="list-item">
+            <div class="project-body">Pain scale is a good choice<br></div>
+          </li>
+          <li class="list-item">
+            <div class="project-body">Explicitly telling a person which button to press may not be necessary<br></div>
+          </li>
+        </ul>
+        <div class="project-body">When instructed to use the override button, several users often could not find it and tried to press the “yes” button in response to the onscreen prompt “Do you wish to override?” <br></div>
+        <ul role="list">
+          <li class="list-item">
+            <div class="project-body">Only show “override” when necessary<br></div>
+          </li>
+          <li class="list-item">
+            <div class="project-body">Improve visibility of active vs. inactive buttons<br></div>
+          </li>
+          <li class="list-item">
+            <div class="project-body">Revise flow again to find out where a prompt can be responded to in alternate ways<br></div>
+          </li>
+        </ul>
+        <div class="project-body">Older participants were generally quicker and did not have to backtrack as frequently.<br></div>
+        <ul role="list">
+          <li class="list-item">
+            <div class="project-body">Clarity is good and can be used properly by people of all backgrounds, ensure that this is continued throughout the rest of the UI<br></div>
+          </li>
+          <li class="list-item">
+            <div class="project-body">Need to improve error recovery flows<br></div>
+          </li>
+        </ul>
+      </div>
+      <div class="divider divider-faded"></div>
+    </section>
+    <section id="iterations" class="project-block">
+      <div class="project-details">
+        <div class="section-title">Iterations</div>
+      </div>
+      <div class="project-details">
+        <div class="subsection-title">Form and Hardware</div>
+      </div>
+      <div class="project-image"><a href="#" class="lightbox w-inline-block w-lightbox"><img src="images/physical-prototypes.png" alt="a video preview of a banking app" sizes="(max-width: 479px) 90vw, (max-width: 767px) 92vw, (max-width: 991px) 73vw, 60vw" srcset="images/physical-prototypes-p-500.png 500w, images/physical-prototypes.png 725w" class="inline-image"><script type="application/json" class="w-json">{
+  "items": [
+    {
+      "type": "image",
+      "_id": "5f8b32434f0e8d6ed1d3d673",
+      "fileName": "5f8b32434f0e8d6ed1d3d673_physical-prototypes.png",
+      "origFileName": "physical-prototypes.png",
+      "width": 725,
+      "height": 559,
+      "fileSize": 449712,
+      "url": "images/physical-prototypes.png"
+    }
+  ]
+}</script></a>
+        <div class="project-text">
+          <div class="image-caption-title">Early-stage physical prototype<br></div>
+          <p class="image-caption">Sample 3D digital models and 3D printed full-size prototypes of the device with preliminary dispensing hardware for use for testing. <br></p>
+        </div>
+      </div>
+      <div class="project-text">
+        <div class="project-body">While our user testing was focused on the user experience of the UI, we were also able to gather some initial impressions around the physical design of the hardware. Since the product was intended to be set up in a prominent area of a patient&#x27;s home so they would be able to see the alerts on the UI, ensuring that the physical design was visually appealing enough that it was not simply hidden away in some corner (defeating the purpose of alerts) was integral. Based on our usability testing and stakeholder feedback, some physical improvements we made included:<br></div>
+        <div class="w-layout-grid grid-table">
+          <div class="image-caption-title">Issue / Concern<br></div>
+          <div class="image-caption-title">Improvement<br></div>
+          <div class="project-body">Initial placement of the screen facing straight up created issues of readability if a user was bedridden or not tall enough. <br></div>
+          <div class="project-body">Reworked the physical panel where the screen is located to have a 45° angle to the base to allow for use from all directions. Screen at a more aggressive angle (e.g. 90°) was not ideal due to lateral movement of the device and needing to stoop down if device is located in a low position. <br></div>
+          <div class="project-body">Pill dispensing area (the &#x27;mouth&#x27;) was too flat, requiring a user to hunt around for the pill in the dispensing area. <br></div>
+          <div class="project-body">Pill dispensing area made more sloped and concave with a reduced &#x27;lip&#x27; to enhance the &#x27;scooping&#x27; motion of picking up the pill and allow for easier visual identification of the dispensed pill. <br></div>
+        </div>
+      </div>
+      <div class="project-details">
+        <div class="subsection-title">User Interface and User Flow</div>
+      </div>
+      <div class="project-text">
+        <div class="project-body">Working through the UI improvements that came out of our usability testing and multiple revisions of the UI flow with our stakeholders, some changes/improvements we made included:<br></div>
+        <ul role="list" class="inline-list">
+          <li class="list-item">
+            <div class="project-body">Moved away from numeric pain scores to more patient experience-oriented pain scores backed by clinical research – we used the &#x27;Wong-Baker Pain Scale&#x27; that is more explanatory and mitigates some of the phenomena of patients &#x27;under-rating&#x27; their actual pain. <br></div>
+          </li>
+          <li class="list-item">
+            <div class="project-body">Moved away from a non-touch screen UI navigated by physical buttons to a full-touch UI as the complexity of the pain scales and overall flow (including &quot;override&#x27; functionality) were not achieving high enough success with physical buttons.<br></div>
+          </li>
+          <li class="list-item">
+            <div class="project-body">Override functionality was revised to only be shown when necessary to increase its importance when such functionality is needed and/or available. <br></div>
+          </li>
+          <li class="list-item">
+            <div class="project-body">Error recovery was fleshed out and the flows were reworked to be always recoverable until the user confirms they want to dispense a pill. <br></div>
+          </li>
+          <li class="list-item">
+            <div class="project-body">Eliminated &quot;Other Options&quot; page and removed/integrated said features into the flow where appropriate instead. <br></div>
+          </li>
+        </ul>
+      </div>
+      <div class="divider divider-faded"></div>
+    </section>
+    <section id="final-prototype" class="project-block">
+      <div class="project-details">
+        <div class="section-title">Final Prototype</div>
+      </div>
+      <div class="project-details">
+        <div class="subsection-title">Form and Hardware</div>
+      </div>
+      <div class="project-image"><a href="#" class="lightbox w-inline-block w-lightbox"><img src="images/finaldesign-lofted.png" alt="a video preview of a banking app" sizes="(max-width: 479px) 90vw, (max-width: 767px) 92vw, (max-width: 991px) 73vw, 60vw" srcset="images/finaldesign-lofted-p-500.png 500w, images/finaldesign-lofted-p-800.png 800w, images/finaldesign-lofted-p-1080.png 1080w, images/finaldesign-lofted.png 1200w" class="inline-image"><script type="application/json" class="w-json">{
+  "items": [
+    {
+      "type": "image",
+      "_id": "5f8b343bd61003b236b22338",
+      "fileName": "5f8b343bd61003b236b22338_finaldesign-lofted.png",
+      "origFileName": "finaldesign-lofted.png",
+      "width": 1200,
+      "height": 652,
+      "fileSize": 365730,
+      "url": "images/finaldesign-lofted.png"
+    }
+  ]
+}</script></a>
+        <div class="project-text">
+          <div class="image-caption-title">Physical Design<br></div>
+          <p class="image-caption">The final design has a more organic design with a large dispensing &#x27;mouth&#x27; and angled touchscreen for optimal use. <br></p>
+        </div>
+      </div>
+      <div class="project-image"><a href="#" class="lightbox w-inline-block w-lightbox"><img src="images/finaldesign-mechanism.png" alt="a video preview of a banking app" sizes="(max-width: 479px) 90vw, (max-width: 767px) 92vw, (max-width: 991px) 73vw, 60vw" srcset="images/finaldesign-mechanism-p-500.png 500w, images/finaldesign-mechanism-p-800.png 800w, images/finaldesign-mechanism-p-1080.png 1080w, images/finaldesign-mechanism.png 1300w" class="inline-image"><script type="application/json" class="w-json">{
+  "items": [
+    {
+      "type": "image",
+      "_id": "5f8b34b4c32c3f4c05632f51",
+      "fileName": "5f8b34b4c32c3f4c05632f51_finaldesign-mechanism.png",
+      "origFileName": "finaldesign-mechanism.png",
+      "width": 1300,
+      "height": 954,
+      "fileSize": 454052,
+      "url": "images/finaldesign-mechanism.png"
+    }
+  ]
+}</script></a>
+        <div class="project-text">
+          <div class="image-caption-title">Internal Dispenser Design<br></div>
+          <p class="image-caption">The internal prototype dispensing mechanism was also fully built and prototyped both from hardware and software perspectives. This design is static, but could be adapted in the future to have a removable or disposable &quot;tray&quot; of pills for quick set-up at the pharmacy.<br></p>
+        </div>
+      </div>
+      <div class="project-image">
+        <div style="padding-top:56.17021276595745%" id="w-node-f59b7fadc347-81eccba5" class="w-embed-youtubevideo"><iframe src="https://www.youtube.com/embed/9mzUeHkpcTg?rel=0&amp;controls=1&amp;autoplay=0&amp;mute=0&amp;start=0" frameborder="0" style="position:absolute;left:0;top:0;width:100%;height:100%;pointer-events:auto" allow="autoplay; encrypted-media" allowfullscreen=""></iframe></div>
+        <div class="project-text">
+          <div class="image-caption-title">Fully-functional physical prototype <br></div>
+          <p class="image-caption">This is a fully-functional UI (per UI flow below) built on an Arduino Mega 2560 and off-the-shelf hardware in native C++. The dispensing mechanism is also functional for one full loaded rotation. <br></p>
+        </div>
+      </div>
+      <div class="project-details">
+        <div class="subsection-title">User Interface, User Flow &amp; Content Design</div>
+      </div>
+      <div class="project-image"><a href="#" class="lightbox w-inline-block w-lightbox"><img src="images/final-userflow-p-2000.png" alt="a video preview of a banking app" sizes="(max-width: 479px) 90vw, (max-width: 767px) 92vw, (max-width: 991px) 73vw, 60vw" srcset="images/final-userflow-p-2000-p-500.png 500w, images/final-userflow-p-2000-p-800.png 800w, images/final-userflow-p-2000-p-1080.png 1080w, images/final-userflow-p-2000-p-1600.png 1600w, images/final-userflow-p-2000.png 2000w" class="inline-image"><script type="application/json" class="w-json">{
+  "items": [
+    {
+      "type": "image",
+      "_id": "5f8b38dfbe7a660461917761",
+      "fileName": "5f8b38dfbe7a660461917761_final-userflow-p-2000.png",
+      "origFileName": "final-userflow-p-2000.png",
+      "width": 2000,
+      "height": 758,
+      "fileSize": 88942,
+      "url": "images/final-userflow-p-2000.png"
+    }
+  ]
+}</script></a>
+        <div class="project-text">
+          <div class="image-caption-title">High-level overview of &quot;golden path&quot; experience.<br></div>
+          <p class="image-caption">The UI is split into two primary paths – a &quot;time to dispense&quot; path and a &quot;not time to dispense&quot; path. We optimised for clarity and error recovery at every stage. <br></p>
+        </div>
+      </div>
+      <div class="project-image"><a href="#" class="lightbox w-inline-block w-lightbox"><img src="images/final-detail1.png" alt="a video preview of a banking app" sizes="(max-width: 479px) 90vw, (max-width: 767px) 92vw, (max-width: 991px) 73vw, 60vw" srcset="images/final-detail1-p-500.png 500w, images/final-detail1-p-800.png 800w, images/final-detail1-p-1080.png 1080w, images/final-detail1-p-1600.png 1600w, images/final-detail1.png 2406w" class="inline-image"><script type="application/json" class="w-json">{
+  "items": [
+    {
+      "type": "image",
+      "_id": "5f8b38e01402253cfa366cd0",
+      "fileName": "5f8b38e01402253cfa366cd0_final-detail1.png",
+      "origFileName": "final-detail1.png",
+      "width": 2406,
+      "height": 1780,
+      "fileSize": 130345,
+      "url": "images/final-detail1.png"
+    }
+  ]
+}</script></a>
+        <div class="project-text">
+          <div class="image-caption-title">Detail - &quot;time to dispense&quot; flow<br></div>
+          <p class="image-caption">We use a Wong-Baker pain score to capture the most accurate yet personalised experience of a patient&#x27;s pain, avoiding the pitfalls of &quot;relative&quot; experience of pain (e.g. a basic numerical score, where patients regularly under-report their pain). We keep it clear and prioritise patient agency. We&#x27;re not able to make recommendations, but center the experience around reflexivity. <br></p>
+        </div>
+      </div>
+      <div class="project-image"><a href="#" class="lightbox w-inline-block w-lightbox"><img src="images/final-detail2.png" alt="a video preview of a banking app" sizes="(max-width: 479px) 90vw, (max-width: 767px) 92vw, (max-width: 991px) 73vw, 60vw" srcset="images/final-detail2-p-500.png 500w, images/final-detail2-p-800.png 800w, images/final-detail2-p-1080.png 1080w, images/final-detail2-p-1600.png 1600w, images/final-detail2.png 2330w" class="inline-image"><script type="application/json" class="w-json">{
+  "items": [
+    {
+      "type": "image",
+      "_id": "5f8b38e020bc9a261b7a48f2",
+      "fileName": "5f8b38e020bc9a261b7a48f2_final-detail2.png",
+      "origFileName": "final-detail2.png",
+      "width": 2330,
+      "height": 1710,
+      "fileSize": 137302,
+      "url": "images/final-detail2.png"
+    }
+  ]
+}</script></a>
+        <div class="project-text">
+          <div class="image-caption-title">Detail - &quot;not time to dispense&quot; flow<br></div>
+          <p class="image-caption">We have both &quot;soft&quot; lockouts and &quot;hard/full&quot; lockouts. Hard lockouts are exclusively reserved for scenarios where it is physically unsafe to take another opioid. &quot;Soft&quot; lockouts can always be overridden in the case where a patient is in pain and does require more medication. <br></p>
+        </div>
+      </div>
+      <div class="divider divider-faded"></div>
+    </section>
+    <section id="reflection" class="project-block">
+      <div class="project-details">
+        <div class="section-title">Reflection &amp; Next Steps</div>
+      </div>
+      <div class="project-details">
+        <div class="subsection-title">Reflection</div>
+      </div>
+      <div class="project-text">
+        <div class="project-body">In reflection, more user testing, especially with the finalised user interface, could have been conducted to ensure that the revised interface was less conducive to mistakes, could facilitate increased error recovery, increase clarity, and validate the idea that the touch screen was a better choice over physical buttons. With this testing, parts of the user flow could be further improved or validated, including aspects of content designs, decision trees, and button placement. <br><br>In terms of expanding the current functionality of the device, there are also a number of things to be addressed. Feasibility, device ownership dynamics, and mass-market loading techniques, among many others, must be fleshed out before this product can reach the market. For example, loading techniques such as pre-filled &quot;wheels&quot; that could be loaded like a cartridge by a pharmacist must be explored if this is to be used in any sort of mass-market setting. Ownership dynamics must also be explored: is this a device that a patient would rent from a hospital, pharmacy, or buy outright? Would this be paid for by insurance, and what motives are there for insurers to pay for such a device? Other not-so-obvious things such as how the device would be cleaned between different patients must also be explored, along with managing critical reception from medical professionals and administrative bodies such as the FDA– especially since this device is built to work with controlled substances.<br><br>As this is a proof-of-concept and not yet a production-ready, FDA-approved device, some of these limitations are understandable. However, this project is valuable more broadly in exploring and attempting to address these issues around outpatient opioid use (and the root causes of abuse), education, and dispensing practices. <br></div>
+      </div>
+      <div class="project-details">
+        <div class="subsection-title">Next Steps</div>
+      </div>
+      <div class="project-text">
+        <div class="project-body">Since this project was concluded, this project has registered as a University of Washington CoMotion Invention (#48371) and a company (Recap Medical, est. 2019) has been founded by our advisor for further development of the product in this problem space. <br></div>
+      </div>
+      <div class="divider divider-faded"></div>
+    </section>
+    <div class="content-footer">
+      <div class="footer-text"><a href="#overview" class="inline-link">back to top</a></div>
+    </div>
+  </div>
+  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=5f289c44a59aed6df3dce33b" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="js/webflow.js" type="text/javascript"></script>
+  <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+</body>
+</html>
