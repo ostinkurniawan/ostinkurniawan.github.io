@@ -85,6 +85,10 @@ body {
   font-weight: 500;
 }
 
+.brand.w--current {
+  padding-left: 0px;
+}
+
 .global-name {
   margin-top: 0px;
   font-size: 20px;
@@ -202,7 +206,7 @@ body {
 }
 
 .read-more.inline-link {
-  margin-top: 12px;
+  margin-top: 8px;
   margin-left: 0px;
 }
 
@@ -428,7 +432,6 @@ body {
     width: auto;
     margin-top: 0px;
     margin-right: 20px;
-    margin-left: 20px;
     padding-top: 24px;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -441,6 +444,7 @@ body {
     width: 100%;
     height: auto;
     margin-top: 12px;
+    padding-left: 0px;
   }
   .global-name {
     margin-top: 0px;
@@ -458,7 +462,7 @@ body {
   .content {
     position: relative;
     left: 0px;
-    padding-top: 60px;
+    padding-top: 24px;
     padding-left: 30px;
   }
   .hero-home {
@@ -478,7 +482,7 @@ body {
     width: auto;
     margin-top: 0px;
     margin-right: 20px;
-    margin-left: 20px;
+    margin-left: 24px;
     padding-top: 12px;
     padding-bottom: 16px;
     -webkit-box-orient: horizontal;
@@ -510,8 +514,8 @@ body {
     grid-template-columns: 0.25fr 1fr;
   }
   .grid-table {
-    -ms-grid-columns: 0.25fr 1fr;
-    grid-template-columns: 0.25fr 1fr;
+    -ms-grid-columns: 0.75fr 1fr;
+    grid-template-columns: 0.75fr 1fr;
   }
 }
 
