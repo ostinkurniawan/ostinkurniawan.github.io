@@ -290,6 +290,10 @@ body {
   padding-left: 0px;
 }
 
+.inline-image {
+  width: 100%;
+}
+
 .grid-roles {
   margin-top: 32px;
   -ms-grid-columns: 0.25fr 1fr;
