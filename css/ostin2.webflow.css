@@ -395,18 +395,54 @@ body {
   font-weight: 400;
 }
 
+.utility-page-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  max-height: 100%;
+  max-width: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.utility-page-content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 260px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+}
+
 @media screen and (max-width: 991px) {
   .menu-container {
     width: 180px;
     margin-left: 30px;
   }
+
   .content {
     left: 240px;
     padding-right: 30px;
   }
+
   .content-footer {
     margin-bottom: 120px;
   }
+
   .footer-text {
     margin-top: 84px;
     text-align: center;
@@ -419,6 +455,7 @@ body {
     width: 100%;
     background-color: transparent;
   }
+
   .nav-menu {
     position: fixed;
     left: 0%;
@@ -432,6 +469,7 @@ body {
     -o-object-fit: fill;
     object-fit: fill;
   }
+
   .menu-container {
     width: auto;
     margin-top: 0px;
@@ -444,31 +482,37 @@ body {
     flex-direction: row;
     background-color: #fff;
   }
+
   .brand {
     width: 100%;
     height: auto;
     margin-top: 12px;
     padding-left: 0px;
   }
+
   .global-name {
     margin-top: 0px;
   }
+
   .menu-button {
     -webkit-box-flex: 0;
     -webkit-flex: 0 auto;
     -ms-flex: 0 auto;
     flex: 0 auto;
   }
+
   .menu-button.w--open {
     background-color: #fff;
     color: #333;
   }
+
   .content {
     position: relative;
     left: 0px;
     padding-top: 24px;
     padding-left: 30px;
   }
+
   .hero-home {
     margin-top: 24px;
   }
@@ -478,10 +522,12 @@ body {
   .main-nav {
     position: relative;
   }
+
   .nav-menu {
     margin-left: 0px;
     padding-left: 36px;
   }
+
   .menu-container {
     width: auto;
     margin-top: 0px;
@@ -495,28 +541,35 @@ body {
     -ms-flex-direction: row;
     flex-direction: row;
   }
+
   .brand {
     padding-left: 0px;
   }
+
   .global-name {
     margin-top: 24px;
   }
+
   .menu-button {
     margin-top: 4px;
     padding-right: 8px;
   }
+
   .tagline {
     margin-top: 8px;
   }
+
   .content {
     padding-top: 0px;
     padding-right: 24px;
     padding-left: 24px;
   }
+
   .grid-roles {
     -ms-grid-columns: 0.25fr 1fr;
     grid-template-columns: 0.25fr 1fr;
   }
+
   .grid-table {
     -ms-grid-columns: 0.75fr 1fr;
     grid-template-columns: 0.75fr 1fr;
