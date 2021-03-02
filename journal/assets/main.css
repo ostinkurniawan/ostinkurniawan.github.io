@@ -34,7 +34,7 @@
 
 body,
 html {
-	font-family: Manrope, Microsoft YaHei, 微软雅黑, 宋体, STXihei, 华文细黑, Arial, Verdana, arial, serif;
+	font-family: Manrope, Arial, Verdana, arial, serif;
 	width: 100%;
 	background-color: var(--bg-color);
 	color: var(--dark);
@@ -2088,7 +2088,7 @@ a.nav-link.active:after {
 	display: block;
 	font-size: 1.2rem;
 	line-height: 40px;
-	text-transform: capitalize
+	/* text-transform: capitalize */
 }
 
 .post__archive_path a:hover .circle-progress {
